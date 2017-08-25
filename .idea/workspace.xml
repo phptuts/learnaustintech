@@ -2,39 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed925eb5-c7ba-4d73-bab6-38ee5c86172f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/articles/2012-05-22-readability-post.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/articles/2013-05-22-sample-post-images.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/articles/2013-05-23-readability-feature-post.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/articles/2013-06-25-video-post.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/articles/2013-08-12-sample-link-post.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/articles/2013-08-16-code-highlighting-post.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/articles/2014-06-19-author-override.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/articles/author-override/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/articles/code-highlighting-post/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/articles/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/articles/readability-feature-post/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/articles/readability-post/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/articles/sample-link-post/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/articles/sample-post-images/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/articles/video-post/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/blog/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/theme-setup/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/index.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme-setup/index.md" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/articles/2011-03-10-sample-post.md" afterPath="$PROJECT_DIR$/_posts/classes/2011-03-10-sample-post.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/articles/index.md" afterPath="$PROJECT_DIR$/classes/index.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_data/navigation.yml" afterPath="$PROJECT_DIR$/_data/navigation.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/404.html" afterPath="$PROJECT_DIR$/_site/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about/index.html" afterPath="$PROJECT_DIR$/_site/about/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/articles/sample-post/index.html" afterPath="$PROJECT_DIR$/_site/articles/sample-post/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/search.json" afterPath="$PROJECT_DIR$/_site/search.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/search/index.html" afterPath="$PROJECT_DIR$/_site/search/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/sitemap.xml" afterPath="$PROJECT_DIR$/_site/sitemap.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/tags/index.html" afterPath="$PROJECT_DIR$/_site/tags/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -62,8 +31,8 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="105">
+              <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -98,8 +67,8 @@
             <state relative-caret-position="-1451">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1503623092000" expanded="true" signature="6358:6496" ph="..." />
-                <marker date="1503623092000" expanded="true" signature="6597:6649" ph="..." />
+                <marker date="1503623191000" expanded="true" signature="6358:6496" ph="..." />
+                <marker date="1503623191000" expanded="true" signature="6597:6649" ph="..." />
               </folding>
             </state>
           </provider>
@@ -195,10 +164,10 @@
         <option value="$PROJECT_DIR$/_posts/articles/2014-06-19-author-override.md" />
         <option value="$PROJECT_DIR$/_sass/_page.scss" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/classes/index.md" />
         <option value="$PROJECT_DIR$/_posts/classes/2011-03-10-sample-post.md" />
         <option value="$PROJECT_DIR$/_data/navigation.yml" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -399,12 +368,12 @@
       <workItem from="1503545530750" duration="2000" />
       <workItem from="1503545535010" duration="1000" />
       <workItem from="1503546034011" duration="2650000" />
-      <workItem from="1503621427570" duration="1424000" />
+      <workItem from="1503621427570" duration="1522000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5223000" />
+    <option name="totallyTimeSpent" value="5321000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1437" height="815" extended-state="6" />
@@ -672,8 +641,8 @@
         <state relative-caret-position="-1451">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1503623092000" expanded="true" signature="6358:6496" ph="..." />
-            <marker date="1503623092000" expanded="true" signature="6597:6649" ph="..." />
+            <marker date="1503623191000" expanded="true" signature="6358:6496" ph="..." />
+            <marker date="1503623191000" expanded="true" signature="6597:6649" ph="..." />
           </folding>
         </state>
       </provider>
@@ -723,8 +692,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        <state relative-caret-position="105">
+          <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
