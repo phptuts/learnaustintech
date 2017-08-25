@@ -1,12 +1,12 @@
 # Site wide configuration
 
-title: Site Title
+title: Get started learning technology in Austin. :)
 locale: en_US
-description: Describe your website here.
+description: This is .
 logo: site-logo.png
 search: true
-url: http://learntechaustin.com
-#url: http://127.0.0.1:4000
+#url: https://www.learntechaustin.com
+url: http://127.0.0.1:4000
 
 # Jekyll configuration
 
@@ -37,9 +37,9 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
+  name: Noah Glaser
   avatar: bio-photo.jpg
-  email: you@email.com
+  email: glaserpower@gmail.com
   disqus-shortname:
   twitter: #username
   facebook: #username

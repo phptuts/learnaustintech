@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Sample Articles
-excerpt: "An archive of articles sorted by date."
+title: Classes
+excerpt: "A list of classes current to past."
 search_omit: true
 ---
 
