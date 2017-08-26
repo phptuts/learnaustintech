@@ -17,6 +17,16 @@
   
 
   
+    ,{
+      "title"			: "Contact Us",
+      "link"			: "http://localhost:4000/contact/",
+      "excerpt"		: "Contact Us."
+    }
+  
+
+  
+
+  
 
   
     ,{
@@ -26,6 +36,12 @@
     }
   
 
+  
+    ,{
+      "title"			: "Class Schedule",
+      "link"			: "http://localhost:4000/calendar/",
+      "excerpt"		: "A list of classes offered."
+    }
   
 
   
