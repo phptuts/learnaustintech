@@ -12,7 +12,7 @@ modified: 2014-08-08T19:44:38.564948-04:00
    </div>     
    
    <div class="form-group">
-        <label for="message">Email address</label>
+        <label for="message">Message</label>
         <textarea class="form-control" id="message" name="message" rows="3"></textarea>
    </div>
 
