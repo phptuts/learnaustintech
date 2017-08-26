@@ -16,5 +16,7 @@ modified: 2014-08-08T19:44:38.564948-04:00
         <textarea class="form-control" id="message" name="message" rows="3"></textarea>
    </div>
 
-   <button type="submit" class="btn btn-success">Send</button>
+   <div class="form-group">
+        <button type="submit" class="btn btn-info pull-right">Contact us</button>
+   </div>
 </form>
