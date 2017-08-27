@@ -55,8 +55,8 @@
         <entry file="file://$PROJECT_DIR$/about/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="105">
-                <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <first_editor relative-caret-position="555">
+                <caret line="27" column="359" lean-forward="false" selection-start-line="27" selection-start-column="359" selection-end-line="27" selection-end-column="359" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -90,7 +90,7 @@
       <file leaf-file-name="_forms.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/_forms.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
+            <state relative-caret-position="4230">
               <caret line="282" column="17" lean-forward="false" selection-start-line="282" selection-start-column="17" selection-end-line="282" selection-end-column="17" />
               <folding />
             </state>
@@ -209,8 +209,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -295,6 +293,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -395,12 +395,13 @@
       <workItem from="1503546034011" duration="2650000" />
       <workItem from="1503621427570" duration="2056000" />
       <workItem from="1503724843070" duration="1786000" />
-      <workItem from="1503794066122" duration="530000" />
+      <workItem from="1503794066122" duration="961000" />
+      <workItem from="1503857509437" duration="1233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8171000" />
+    <option name="totallyTimeSpent" value="9835000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1437" height="815" extended-state="6" />
@@ -550,7 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="44" column="6" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -609,7 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="44" column="6" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -686,7 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="44" column="6" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -770,7 +768,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_sass/_forms.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
+        <state relative-caret-position="4230">
           <caret line="282" column="17" lean-forward="false" selection-start-line="282" selection-start-column="17" selection-end-line="282" selection-end-column="17" />
           <folding />
         </state>
@@ -787,8 +785,8 @@
     <entry file="file://$PROJECT_DIR$/about/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <first_editor relative-caret-position="555">
+            <caret line="27" column="359" lean-forward="false" selection-start-line="27" selection-start-column="359" selection-end-line="27" selection-end-column="359" />
             <folding />
           </first_editor>
           <second_editor />
