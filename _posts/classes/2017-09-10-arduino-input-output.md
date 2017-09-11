@@ -109,4 +109,4 @@ void loop() {
 
 - Make it so that the light blinks the number of times the button has been pushed
 
-- Just have fun with project and do what you want :)
+- Just have fun and do what you want :)
