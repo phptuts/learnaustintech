@@ -99,11 +99,17 @@ void loop() {
 
 ### Step 11) Select the port in the arduino ide that your board is hooked up to
 
-![step12](/images/2017-09-11-arduino-passive-motion-sensor/step11.png)
+![step11](/images/2017-09-11-arduino-passive-motion-sensor/step11.png)
 
-### Step 12) Upload the arduino sketch
+### Step 12) Open the serial monitor
+
+![step13](/images/2017-09-11-arduino-passive-motion-sensor/step13.png)
+
+### Step 13) Upload the arduino sketch
 
 ![step12](/images/2017-09-11-arduino-passive-motion-sensor/step12.png)
+
+
 
 ## Challenge Projects
 
