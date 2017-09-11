@@ -2,7 +2,7 @@
 layout: post
 title: Arduino 101 Input & Output Work Book
 excerpt: "Arduino Basic."
-modified: 2017-09-10
+modified: 2017-09-11
 categories: articles
 comments: true
 share: true
@@ -13,7 +13,7 @@ share: true
 ![kit](/images/2017-09-10-arduino-input-output/kit.jpg)
  
 
-### Bill of Materials 
+## Bill of Materials 
 
 - 1 x Arduino Uno
 - 1 x led 
@@ -21,6 +21,7 @@ share: true
 - 2 x jumper wires
 - 2 x regular wires 
 - 1 x push button
+- 1 x breadboard
 - 1 x usb type b cable
 
 
