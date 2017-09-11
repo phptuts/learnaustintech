@@ -28,7 +28,7 @@ share: true
 
 Before you begin be sure you have the [arduino ide](https://www.arduino.cc/en/Main/Software) installed.  You might want to review the [class presentation](https://docs.google.com/presentation/d/1NVXJuoGbR-pNWjyHMJpdIDgtxiLFyZJTAl8aILhjp4g/edit?usp=sharing)
 if you found this on the internet
-### Step 1) Take the led and put the long side (positive) into (5, 3) and short side (negative) into (3, e) of the breadboard.
+### Step 1) Take the led and put the long side (positive) into (5, e) and short side (negative) into (3, e) of the breadboard.
 
 ![step1](/images/2017-09-11-arduino-passive-motion-sensor/step1.jpg)
 
