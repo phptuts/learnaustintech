@@ -58,7 +58,7 @@ if you found this on the internet
 
 ### Step 8) Take a female to male wire and plug the + (volts) into 3.3 volt of the arduino
 
-![step7](/images/2017-09-11-arduino-passive-motion-sensor/step7.jpg)
+![step8](/images/2017-09-11-arduino-passive-motion-sensor/step8.jpg)
 
 It should like this when you are done.
 
