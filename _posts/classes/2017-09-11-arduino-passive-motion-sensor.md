@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Build An Arduino Motion Sensor With Led
+title: Build An Arduino Motion Sensor With Led Work book
 excerpt: "Arduino Passive Motion Sensor (PIR) Work Book."
 modified: 2017-09-11
 categories: articles
