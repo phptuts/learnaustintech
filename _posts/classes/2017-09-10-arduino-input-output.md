@@ -30,6 +30,12 @@ share: true
 Before you begin be sure you have the [arduino ide](https://www.arduino.cc/en/Main/Software) installed.  You might want to review the [class presentation](https://docs.google.com/presentation/d/1MoRwCLQkwIvOVirSYqP_qpZK4cVCWzgDfzAIcsbjcqk/edit?usp=sharing)
 if you found this on the internet.
 
+### PreStep) Adjust the arduino setting / preferences to include line numbers and click Ok.
+
+![prestep1](/images/2017-09-10-arduino-input-output/prestep1.png)
+
+![prestep2](/images/2017-09-10-arduino-input-output/prestep2.png)
+
 ### Step 1) Take the long side of led place it into breadboard (5,f) and short side into (7, f)
 
 ![step1](/images/2017-09-10-arduino-input-output/step1.jpg)
@@ -111,3 +117,11 @@ void loop() {
 - Make it so that the light blinks the number of times the button has been pushed
 
 - Just have fun and do what you want :)
+
+## Resources
+
+- [https://www.arduino.cc](https://www.arduino.cc) 
+- [http://www.instructables.com/id/Arduino-Projects/](http://www.instructables.com/id/Arduino-Projects/) 
+- [https://create.arduino.cc/projecthub](https://create.arduino.cc/projecthub) 
+- [https://circuitdigest.com/arduino-projects](https://circuitdigest.com/arduino-projects) 
+- [https://makezine.com](https://makezine.com)
