@@ -102,7 +102,7 @@ share: true
 
 ![step5-code](/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step6-code.png)
 
-### Step 7) Paste this code into your arduino ide.
+### Step 7) Paste this code into your arduino ide.  If you have kit 3 adjust NUMPIXELS to 60.
 
 ```
 #include <Adafruit_NeoPixel.h>
@@ -139,9 +139,9 @@ WiFiClient client;
 /** 
  *  WIFI STUFF
  */
-const char* ssid = "ATXHackerspace";//type your ssid
-const char* password = "hackon!!";//type your password
-const char* host = "christmaslights.noahglaser.net";
+const char* ssid = "****";//type your ssid
+const char* password = "****";//type your password
+const char* host = "****"; // type in your cloud 9 url.
 const uint16_t port = 80;
 
 /**
