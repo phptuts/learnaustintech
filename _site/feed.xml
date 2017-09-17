@@ -1,121 +1,679 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-08-26T00:49:46-05:00</updated><id>http://localhost:4000/</id><title type="html">Get started learning technology in Austin. :)</title><subtitle>This is .</subtitle><entry><title type="html">Learn How To Build a Crappy Android App in an Hour. :)</title><link href="http://localhost:4000/articles/sample-post/" rel="alternate" type="text/html" title="Learn How To Build a Crappy Android App in an Hour. :)" /><published>2011-03-10T00:00:00-06:00</published><updated>2011-03-10T00:00:00-06:00</updated><id>http://localhost:4000/articles/sample-post</id><content type="html" xml:base="http://localhost:4000/articles/sample-post/">&lt;p&gt;Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-09-17T18:14:54-05:00</updated><id>http://localhost:4000/</id><title type="html">Get started learning technology in Austin. :)</title><subtitle>This is .</subtitle><entry><title type="html">Wifi Controlled Christmas Lights Using Node and ESP8266 Chip</title><link href="http://localhost:4000/articles/esp8266-wifi-controlled-christmas-lights/" rel="alternate" type="text/html" title="Wifi Controlled Christmas Lights Using Node and ESP8266 Chip" /><published>2017-09-13T00:00:00-05:00</published><updated>2017-09-13T00:00:00-05:00</updated><id>http://localhost:4000/articles/esp8266-wifi-controlled-christmas-lights</id><content type="html" xml:base="http://localhost:4000/articles/esp8266-wifi-controlled-christmas-lights/">&lt;h2 id=&quot;project-kit&quot;&gt;Project Kit&lt;/h2&gt;
 
-&lt;h1 id=&quot;heading-1&quot;&gt;Heading 1&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/kit1.jpg&quot; alt=&quot;kit1&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;heading-2&quot;&gt;Heading 2&lt;/h2&gt;
-
-&lt;h3 id=&quot;heading-3&quot;&gt;Heading 3&lt;/h3&gt;
-
-&lt;h4 id=&quot;heading-4&quot;&gt;Heading 4&lt;/h4&gt;
-
-&lt;h5 id=&quot;heading-5&quot;&gt;Heading 5&lt;/h5&gt;
-
-&lt;h6 id=&quot;heading-6&quot;&gt;Heading 6&lt;/h6&gt;
-
-&lt;h3 id=&quot;body-text&quot;&gt;Body text&lt;/h3&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, test link adipiscing elit. &lt;strong&gt;This is strong&lt;/strong&gt;. Nullam dignissim convallis est. Quisque aliquam.&lt;/p&gt;
-
-&lt;p class=&quot;pull-right&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/3953273590_704e3899d5_m.jpg&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;This is emphasized&lt;/em&gt;. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H&lt;sub&gt;2&lt;/sub&gt;O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times &lt;cite&gt;(That’s a citation)&lt;/cite&gt;. &lt;u&gt;Underline&lt;/u&gt;. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.&lt;/p&gt;
-
-&lt;p&gt;HTML and &lt;abbr title=&quot;cascading stylesheets&quot;&gt;CSS&lt;abbr&gt; are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.&lt;/abbr&gt;&lt;/abbr&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;list-types&quot;&gt;List Types&lt;/h2&gt;
-
-&lt;h3 id=&quot;ordered-lists&quot;&gt;Ordered Lists&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Item one
-    &lt;ol&gt;
-      &lt;li&gt;sub item one&lt;/li&gt;
-      &lt;li&gt;sub item two&lt;/li&gt;
-      &lt;li&gt;sub item three&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Item two&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;unordered-lists&quot;&gt;Unordered Lists&lt;/h3&gt;
+&lt;h2 id=&quot;bill-of-materials&quot;&gt;Bill of Materials&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Item one&lt;/li&gt;
-  &lt;li&gt;Item two&lt;/li&gt;
-  &lt;li&gt;Item three&lt;/li&gt;
+  &lt;li&gt;1 x ESP8266&lt;/li&gt;
+  &lt;li&gt;1 x led addressable light strip 5v&lt;/li&gt;
+  &lt;li&gt;2 x jumper wires (male to male)&lt;/li&gt;
+  &lt;li&gt;3 x jumper wires (male to female)&lt;/li&gt;
+  &lt;li&gt;1 x 5 volt / 3 amp dc power cord&lt;/li&gt;
+  &lt;li&gt;1 x Female DC Power Jack Adapter Plug&lt;/li&gt;
+  &lt;li&gt;1 x breadboard&lt;/li&gt;
+  &lt;li&gt;1 x micro usb cord&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;tables&quot;&gt;Tables&lt;/h2&gt;
+&lt;h2 id=&quot;project-setup&quot;&gt;Project Setup&lt;/h2&gt;
 
-&lt;table class=&quot;table&quot;&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Header1&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Header2&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;Header3&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell4&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell5&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell6&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell4&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell5&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell6&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-  &lt;tfoot&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Foot1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Foot2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;Foot3&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tfoot&gt;
-&lt;/table&gt;
+&lt;h3 id=&quot;step-1-put-the-esp8266-chip-in-the-breadboard&quot;&gt;Step 1) Put the ESP8266 Chip in the breadboard.&lt;/h3&gt;
 
-&lt;h2 id=&quot;code-snippets&quot;&gt;Code Snippets&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step1a.jpg&quot; alt=&quot;step1a&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Syntax highlighting via Rouge&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step1b.jpg&quot; alt=&quot;step1b&quot; /&gt;&lt;/p&gt;
 
-&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nf&quot;&gt;#container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-240px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;h3 id=&quot;step-2-insert-the-dc-power-jack-adapter-into-the-power-cord&quot;&gt;Step 2) Insert the DC Power Jack Adapter into the power cord.&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step2.jpg&quot; alt=&quot;step2&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-3-take-male-to-male-jumper-wire-and-put-one-side-into-the-positive-end-of-the-power-adapter-and-the-other-end-the-red-wire-of-led-light-strip--screw-the-wire-down-on-the-power-adapter-side&quot;&gt;Step 3) Take male to male jumper wire and put one side into the positive end of the power adapter and the other end the red wire of led light strip.  Screw the wire down on the power adapter side.&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step3a.jpg&quot; alt=&quot;step3a&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step3b.jpg&quot; alt=&quot;step3b&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step3c.jpg&quot; alt=&quot;step3c&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step3d.jpg&quot; alt=&quot;step3c&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-4-hook-in-the-male-to-male-wire-to-ground-of-the-power-adapter&quot;&gt;Step 4) Hook in the male to male wire to ground of the power adapter.&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step4a.jpg&quot; alt=&quot;step4a&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step4b.jpg&quot; alt=&quot;step4b&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-5-hook-the-other-end-of-the-male-to-male-wire-into-the-breadboard-28-d&quot;&gt;Step 5) Hook the other end of the male to male wire into the breadboard (28, d).&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step5.jpg&quot; alt=&quot;step5&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-6-take-the-other-male-to-male-jumper-wire-put-into-the-breadboard-28-c-and-ground-gnd-on-the-esp-8266-chip--for-me-the-that-is-22-i--but-you-should-be-able-to-gnd-port-on-the-board&quot;&gt;Step 6) Take the other male to male jumper wire put into the breadboard (28, c) and ground (gnd) on the ESP 8266 Chip.  For me the that is (22, i).  But you should be able to (gnd) port on the board.&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step6.jpg&quot; alt=&quot;step6&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-7-take-the-male-to-female-jumper-wire-and-hook-it-into-the-middle-wire-of-the-led-light-strip&quot;&gt;Step 7) Take the male to female jumper wire and hook it into the middle wire of the led light strip.&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step7.jpg&quot; alt=&quot;step7&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-8-take-the-other-end-of-the-male-to-female-wire-and-put-that-into-d6-of-the-esp8266&quot;&gt;Step 8) Take the other end of the male to female wire and put that into D6 of the ESP8266.&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step8.jpg&quot; alt=&quot;step8&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-9-take-the-other-end-of-the-male-to-female-wire-and-put-it-into-ground-white-wire-of-the-led-light-strip&quot;&gt;Step 9) Take the other end of the male to female wire and put it into ground (white) wire of the led light strip.&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step9.jpg&quot; alt=&quot;step9&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-10-take-the-other-end-of-that-wire-and-place-it-in-28-b-of-the-breadboard--notice-that-the-esp8266-and-led-stripe-share-the-same-ground&quot;&gt;Step 10) Take the other end of that wire and place it in (28, b) of the breadboard.  (Notice that the esp8266 and led stripe share the same ground).&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step10.jpg&quot; alt=&quot;step10&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;code-setup&quot;&gt;Code Setup&lt;/h2&gt;
+
+&lt;h3 id=&quot;step-1-open-the-arduino-ide-and-go-to-setting--preferences&quot;&gt;Step 1) Open the arduino IDE and go to setting / preferences.&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step1-code.png&quot; alt=&quot;step1-code&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-2-add-this-httparduinoesp8266comstablepackage_esp8266com_indexjson-to-the-board-manager-in-the-setting&quot;&gt;Step 2) Add this http://arduino.esp8266.com/stable/package_esp8266com_index.json to the board manager in the setting.&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step2-code.png&quot; alt=&quot;step2-code&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-3-go-to-tools---boards---board-manager-and-search-for-esp8266--then-install-the-latest-esp8266-board&quot;&gt;Step 3) Go to Tools -&amp;gt; Boards -&amp;gt; Board Manager and search for esp8266.  Then install the latest esp8266 board.&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step3-code.png&quot; alt=&quot;step3-code&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-4-install-the-latest-version-esp8266-library&quot;&gt;Step 4) Install the latest version esp8266 library.&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step4-code.png&quot; alt=&quot;step4-code&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-5-install-the-ada-fruit-neo-pixel-library--download-the-zip-file-then-go-to-tools---include-library---add-zip-and-that-zip-file&quot;&gt;Step 5) Install the &lt;a href=&quot;https://github.com/adafruit/Adafruit_NeoPixel&quot;&gt;ada fruit neo pixel library&lt;/a&gt;.  Download the zip file. Then go to tools -&amp;gt; include library -&amp;gt; add zip and that zip file.&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step5-code.png&quot; alt=&quot;step5-code&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-6-create-a-new-sketch-in-your-arduino-ide&quot;&gt;Step 6) Create a new sketch in your arduino ide.&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step6-code.png&quot; alt=&quot;step5-code&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-7-paste-this-code-into-your-arduino-ide--if-you-have-kit-3-adjust-numpixels-to-60&quot;&gt;Step 7) Paste this code into your arduino ide.  If you have kit 3 adjust NUMPIXELS to 60.&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#include &amp;lt;Adafruit_NeoPixel.h&amp;gt;
+#include &amp;lt;ESP8266WiFi.h&amp;gt;
+#include &amp;lt;WiFiClient.h&amp;gt;
+#include &amp;lt;ArduinoJson.h&amp;gt;
+
+#ifdef __AVR__
+  #include &amp;lt;avr/power.h&amp;gt;
+#endif
+
+/**
+ * The number lights in your led strip
+ */
+#define NUMPIXELS      30
+
+/**
+ * The default time before request another pattern.  It's in milliseconds so it would be 10 seconds
+ */
+int intervalToCheckTime = 10000;
+
+/** 
+ *  The time in the future to check the web for a new pattern.  We set it to zero, it will be set correctly in the web request
+ */
+int checkTimeInNumberOfSeconds = 0;
+
+// When we setup the NeoPixel library, we tell it how many pixels, and which pin to use to send signals.
+// Note that for older NeoPixel strips you might need to change the third parameter--see the strandtest
+// example for more information on possible values.
+Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, D6, NEO_GRB + NEO_KHZ800);
+
+WiFiClient client;
+
+/** 
+ *  WIFI STUFF
+ */
+const char* ssid = &quot;****&quot;;//type your ssid
+const char* password = &quot;****&quot;;//type your password
+const char* host = &quot;****&quot;; // type in your cloud 9 url.
+const uint16_t port = 80;
+
+/**
+ * The number represents the max frame / lights a pattern can affect
+ */
+const int MAX_FRAMES = 250;
+
+/**
+ * This represents a frame.
+ */
+struct RGB_LIGHT {
+  int red;
+  int green;
+  int blue;
+  int lightPosition;
+  int delayTime;
+  /**
+   * If skip is true we break 
+   */
+  boolean skip;
+};
+
+/**
+ * The pattern / frames used to turn on and off the lights
+ */
+RGB_LIGHT lights[MAX_FRAMES];
+
+void setup() {
+  // This is for Trinket 5V 16MHz, you can remove these three lines if you are not using a Trinket
+#if defined (__AVR_ATtiny85__)
+  if (F_CPU == 16000000) clock_prescale_set(clock_div_1);
+#endif
+  // End of trinket special code
+
+  pixels.begin(); // This initializes the NeoPixel library.
+  Serial.begin(115200);
+  delay(10);
+
+  // We start by connecting to a WiFi network
+
+  Serial.println();
+  Serial.println();
+  Serial.print(&quot;Connecting to &quot;);
+  Serial.println(ssid);
+  
+  /* Explicitly set the ESP8266 to be a WiFi-client, otherwise, it by default,
+     would try to act as both a client and an access-point and could cause
+     network-issues with your other WiFi-devices on your WiFi-network. */
+  WiFi.mode(WIFI_STA);
+  WiFi.begin(ssid, password);
+  
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(&quot;.&quot;);
+  }
+
+  Serial.println(&quot;&quot;);
+  Serial.println(&quot;WiFi connected&quot;);  
+  Serial.println(&quot;IP address: &quot;);
+  Serial.println(WiFi.localIP());
+  
+  clearLights();
+  webRequest();
+  checkTimeInNumberOfSeconds = millis() + intervalToCheckTime;
+
+}
+
+void loop() {
+  
+  if (checkTimeInNumberOfSeconds &amp;gt; millis()) {
+     for(int frameNumbers=0; frameNumbers &amp;lt; MAX_FRAMES; frameNumbers++){
+        if (lights[frameNumbers].skip == false) {
+            pixels.setPixelColor(lights[frameNumbers].lightPosition, pixels.Color(lights[frameNumbers].red,lights[frameNumbers].green,lights[frameNumbers].blue)); 
+            pixels.show(); 
+            delay(lights[frameNumbers].delayTime);
+        }
+        else {
+           break;
+        }
+    }
+  }
+  else {
+       webRequest();
+       Serial.println(&quot;NEW PATTERN&quot;);
+       // Sets the time to check the web for a new pattern
+       checkTimeInNumberOfSeconds = millis() + intervalToCheckTime;
+  }
+}
+
+/**
+ * Clears all the lights 
+ */
+void clearLights() {
+      for (int i = 0; i &amp;lt; NUMPIXELS; i += 1) {
+         pixels.setPixelColor(i, pixels.Color(0,0,0)); 
+         pixels.show();
+      }
+}
+
+/** 
+ *  Clears the array of RGB_LIGHTS
+ */
+void clearArrayOfLights() {
+  for(int i=0; i &amp;lt; MAX_FRAMES; i++){
+      lights[i] = {0,0,0, 0, 0, true};
+  }
+}
+
+/**
+ * Makes the web request to get the light pattern
+ */
+void webRequest() {
+    String jsonString = &quot;&quot;;
+    if (client.connect(host, port)) {
+          String url =  &quot;/leds&quot;;
+          client.println(&quot;GET &quot; + url + &quot; HTTP/1.1&quot;);
+          client.println(&quot;Host: &quot;+ (String)host);
+          client.println(&quot;User-Agent: Arduino/1.0&quot;);
+          client.println(&quot;Connection: close&quot;);
+          client.println();
+          client.println();
+          while (client.connected()) {
+         
+            client.readStringUntil('|');
+            jsonString = client.readStringUntil('\n');
+      
+          }
+          parseJSONFromServer(jsonString);
+    }
+    else {
+      Serial.println(&quot;NOT CONNECTED&quot;);
+    }
+}
+
+
+/** 
+ *  Parses the json string
+ */
+void parseJSONFromServer(String jsonString)
+{
+     DynamicJsonBuffer  jsonBuffer;
+    // Root of the object tree.
+    //
+    // It's a reference to the JsonObject, the actual bytes are inside the
+    // JsonBuffer with all the other nodes of the object tree.
+    // Memory is freed when jsonBuffer goes out of scope.
+    JsonObject&amp;amp; root = jsonBuffer.parseObject(jsonString);
+
+ 
+  
+    // Test if parsing succeeds.
+    if (!root.success()) {
+      Serial.println(&quot;parseObject() failed JSON STRING&quot;);
+      Serial.println(jsonString);
+      return;
+    }
+
+  JsonArray&amp;amp; reds = root[&quot;reds&quot;].asArray();
+  JsonArray&amp;amp; greens = root[&quot;greens&quot;].asArray();
+  JsonArray&amp;amp; blues = root[&quot;blues&quot;].asArray();
+  JsonArray&amp;amp; lightPositions = root[&quot;lightPositions&quot;].asArray();
+  JsonArray&amp;amp; delayTimes = root[&quot;delayTimes&quot;].asArray();
+  intervalToCheckTime = root[&quot;requestTime&quot;];
+  clearArrayOfLights();
+  for (int i = 0; i &amp;lt; reds.size(); i += 1) {
+       lights[i] = { 
+                reds.get&amp;lt;int&amp;gt;(i),
+                greens.get&amp;lt;int&amp;gt;(i),
+                blues.get&amp;lt;int&amp;gt;(i), 
+                lightPositions.get&amp;lt;int&amp;gt;(i), 
+                delayTimes.get&amp;lt;int&amp;gt;(i),
+                false
+       };
+  }
+}
+
+
+/** 
+ *  A debuggin function for seeing the light pattern
+ */
+void printLights() {
+  Serial.println(&quot;LIGHT PATTERN&quot;);
+  for (int frameNumbers = 0; frameNumbers &amp;lt; MAX_FRAMES; frameNumbers += 1) {
+         if (lights[frameNumbers].skip) {
+             break;
+         }
+         Serial.print(&quot;FRAME  &quot; + String(frameNumbers, 10));
+         Serial.print(&quot; RED &quot; + String(lights[frameNumbers].red, 10));
+         Serial.print(&quot; GREEN &quot; + String(lights[frameNumbers].green, 10));
+         Serial.print(&quot; BLUE &quot; + String(lights[frameNumbers].blue, 10));
+         Serial.print(&quot; LIGHT POSITION &quot; + String(lights[frameNumbers].lightPosition, 10));
+         Serial.print(&quot; DELAY TIME &quot; + String(lights[frameNumbers].delayTime, 10));
+         Serial.println();
+  }
+}  
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Non Rouge code example&lt;/p&gt;
+&lt;h3 id=&quot;step-8-signup-for-a-free-cloud9-account--i-would-recommend-you-use-your-github-account-for-authentication&quot;&gt;Step 8) SignUp For a free &lt;a href=&quot;https://c9.io/&quot;&gt;cloud9&lt;/a&gt; account.  I would recommend you use your github account for authentication.&lt;/h3&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div id=&quot;awesome&quot;&amp;gt;
-    &amp;lt;p&amp;gt;This is great isn't it?&amp;lt;/p&amp;gt;
-&amp;lt;/div&amp;gt;
+&lt;h3 id=&quot;step-9-create-a-new-workspace-in-your-cloud-9-dashboard--at-the-time-of-this-writing-its-in-the-top-right-corner-of-the-page&quot;&gt;Step 9) Create a new workspace in your cloud 9 dashboard.  At the time of this writing it’s in the top right corner of the page.&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step9-code.png&quot; alt=&quot;step9-code&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-10-next-fill-in-the-name-of-the-work-space-and-put-in-this-in-the-git-clone-project-url--httpsgithubcomphptutsarduinochristmaslightsgit--then-select-the-node-template--then-click-create-workspace&quot;&gt;Step 10) Next fill in the name of the work space and put in this in the git clone project url.  (https://github.com/phptuts/arduinochristmaslights.git)  Then select the node template.  Then click create workspace.&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step10-code.png&quot; alt=&quot;step10-code&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-11-then-click-on-appjs-and-click-run-on-cloud-9-interface--this-will-run-start-the-server&quot;&gt;Step 11) Then click on app.js and click run on cloud 9 interface.  This will run start the server.&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step11-code.png&quot; alt=&quot;step11-code&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-12-then-copy-the-url-in-the-console--in-my-case-its-httpsarduino-christmas-lighting-nglaserc9usersio&quot;&gt;Step 12) Then copy the url in the console.  In my case its “https://arduino-christmas-lighting-nglaser.c9users.io”.&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step12-code.png&quot; alt=&quot;step12-code&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-13-change-the-host-variable-to-use-the-host-you-url-copied-from-the-cloud-9-terminal--also-change-the-wifi-password-and-ssid-variables-the-ssid-is-the-name-of-your-wifi-network&quot;&gt;Step 13) Change the host variable to use the host you url copied from the cloud 9 terminal.  Also change the wifi password and ssid variables. The ssid is the name of your wifi network.&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step13-code.png&quot; alt=&quot;step13-code&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-14-hook-the-micro-usb-cord-into-the-esp8266-chip--then-select-the-port-that-it-is-on&quot;&gt;Step 14) Hook the micro usb cord into the esp8266 chip.  Then select the port that it is on.&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step14-code.png&quot; alt=&quot;step14-code&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-15-select-the-esp8266-board--in-our-case-its-esp-12-e-model&quot;&gt;Step 15) Select the esp8266 board.  In our case it’s ESP-12 E model.&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step15-code.png&quot; alt=&quot;step15-code&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-16-upload-the-sketch-to-the-esp8266-chip&quot;&gt;Step 16) Upload the sketch to the esp8266 chip.&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step16-code.png&quot; alt=&quot;step16-code&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-17-go-to-website-you-copied-into-the-arduino-ide-and-play-around-with-the-user-interface--you-can-do-default-patterns-or-use-the-pipe-system-to-create-your-own--if-u-are-using-kit-one-select-30-leds-for-the-default-pattern--if-you-are-using-kit-3-use-60-leds&quot;&gt;Step 17) Go to website you copied into the arduino ide and play around with the user interface.  You can do default patterns or use the pipe system to create your own.  If u are using kit one select 30 leds for the default pattern.  If you are using kit 3 use 60 leds.&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step17-code.png&quot; alt=&quot;step16-code&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-18-hook-the-tree-and-have-fun--you-can-see-the-demo-here&quot;&gt;Step 18) Hook the tree and have fun. :) You can see the demo here.&lt;/h3&gt;
+
+&lt;iframe src=&quot;https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fnoah.glaser.75%2Fvideos%2F1437675766280514%2F&amp;amp;show_text=1&amp;amp;width=560&quot; width=&quot;560&quot; height=&quot;464&quot; style=&quot;border:none;overflow:hidden&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/adafruit/Adafruit_NeoPixel&quot;&gt;https://github.com/adafruit/Adafruit_NeoPixel&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/esp8266/Arduino&quot;&gt;https://github.com/esp8266/Arduino&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/bblanchon/ArduinoJson&quot;&gt;Arduino JSON Library&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.arduino.cc/en/Tutorial/HttpClient&quot;&gt;Arduino Http Library&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Wifi Controlled Christmas Lights Using Node Js and ESP8266 Chip</summary></entry><entry><title type="html">Build An Arduino Motion Sensor With Led Work book</title><link href="http://localhost:4000/articles/arduino-passive-motion-sensor/" rel="alternate" type="text/html" title="Build An Arduino Motion Sensor With Led Work book" /><published>2017-09-11T00:00:00-05:00</published><updated>2017-09-11T00:00:00-05:00</updated><id>http://localhost:4000/articles/arduino-passive-motion-sensor</id><content type="html" xml:base="http://localhost:4000/articles/arduino-passive-motion-sensor/">&lt;h2 id=&quot;project-kit&quot;&gt;Project Kit&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-11-arduino-passive-motion-sensor/kit.jpg&quot; alt=&quot;step1&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;bill-of-materials&quot;&gt;Bill of Materials&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1 x Arduino Uno&lt;/li&gt;
+  &lt;li&gt;1 x led&lt;/li&gt;
+  &lt;li&gt;1 x 220 Ohm Resistor&lt;/li&gt;
+  &lt;li&gt;2 x jumper wires (male to male)&lt;/li&gt;
+  &lt;li&gt;3 x jumper wires (male to female)&lt;/li&gt;
+  &lt;li&gt;1 x passive motion sensor (pir)&lt;/li&gt;
+  &lt;li&gt;1 x breadboard&lt;/li&gt;
+  &lt;li&gt;1 x usb type b cable&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;steps&quot;&gt;Steps&lt;/h2&gt;
+
+&lt;p&gt;Before you begin be sure you have the &lt;a href=&quot;https://www.arduino.cc/en/Main/Software&quot;&gt;arduino ide&lt;/a&gt; installed.  You might want to review the &lt;a href=&quot;https://docs.google.com/presentation/d/1NVXJuoGbR-pNWjyHMJpdIDgtxiLFyZJTAl8aILhjp4g/edit?usp=sharing&quot;&gt;class presentation&lt;/a&gt;
+if you found this on the internet.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-1-take-the-led-and-put-the-long-side-positive-into-5-e-and-short-side-negative-into-3-e-of-the-breadboard&quot;&gt;Step 1) Take the led and put the long side (positive) into (5, e) and short side (negative) into (3, e) of the breadboard.&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-11-arduino-passive-motion-sensor/step1.jpg&quot; alt=&quot;step1&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-2-take-the-resistor-and-plug-one-end-into-5-d-and-the-other-end-into-8-b&quot;&gt;Step 2) Take the resistor and plug one end into (5, d) and the other end into (8, b).&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-11-arduino-passive-motion-sensor/step2.jpg&quot; alt=&quot;step2&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-3-plug-one-end-of-the-male-to-male-jumper-wire-into-2-a-and-take-the-other-jumper-wire-into-8-a&quot;&gt;Step 3) Plug one end of the male to male jumper wire into (2, a) and take the other jumper wire into (8, a).&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-11-arduino-passive-motion-sensor/step3.jpg&quot; alt=&quot;step3&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-4-take-the-jumper-wire-plugged-into-8-a-into-arduino-pin-7&quot;&gt;Step 4) Take the jumper wire plugged into (8, a) into arduino pin 7.&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-11-arduino-passive-motion-sensor/step4.jpg&quot; alt=&quot;step4&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-5-take-the-other-jumper-wire-and-plug-it-into-ground-gnd-in-the-arduino&quot;&gt;Step 5) Take the other jumper wire and plug it into ground (gnd) in the arduino.&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-11-arduino-passive-motion-sensor/step5.jpg&quot; alt=&quot;step5&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-6-take-a-female-to-male-wire-and-plug-the-s-into-pin-4-of-the-arduino&quot;&gt;Step 6) Take a female to male wire and plug the s into pin 4 of the arduino&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-11-arduino-passive-motion-sensor/step6.jpg&quot; alt=&quot;step6&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-7-take-a-female-to-male-wire-and-plug-the---ground-into-the-ground-gnd-of-the-arduino&quot;&gt;Step 7) Take a female to male wire and plug the - (ground) into the ground (gnd) of the arduino&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-11-arduino-passive-motion-sensor/step7.jpg&quot; alt=&quot;step7&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-8-take-a-female-to-male-wire-and-plug-the--volts-into-33-volt-of-the-arduino&quot;&gt;Step 8) Take a female to male wire and plug the + (volts) into 3.3 volt of the arduino&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-11-arduino-passive-motion-sensor/step8.jpg&quot; alt=&quot;step8&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It should like this when you are done.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-11-arduino-passive-motion-sensor/looklike.jpg&quot; alt=&quot;lookslike&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-9-plug-in-the-arduino-into-the-computer&quot;&gt;Step 9) Plug in the arduino into the computer&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-11-arduino-passive-motion-sensor/looklike.jpg&quot; alt=&quot;lookslike&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-10-open-the-arduino-ide-and-paste-the-code-in-below&quot;&gt;Step 10) Open the arduino ide and paste the code in below.&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+int led = 7;
+int pirSensor = 4;
+
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(pirSensor, INPUT_PULLUP);
+  pinMode(led, OUTPUT);
+  Serial.begin(9200);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  if (digitalRead(pirSensor)) {
+        Serial.println(&quot;Sensed Something&quot;);
+        digitalWrite(led, HIGH);
+  }
+  else {
+      digitalWrite(led, LOW);
+      Serial.println(&quot;Sensed Nothing&quot;);
+  }
+
+  delay(500);
+}
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&quot;buttons&quot;&gt;Buttons&lt;/h2&gt;
+&lt;h3 id=&quot;step-11-select-the-port-in-the-arduino-ide-that-your-board-is-hooked-up-to&quot;&gt;Step 11) Select the port in the arduino ide that your board is hooked up to&lt;/h3&gt;
 
-&lt;p&gt;Make any link standout more when applying the &lt;code class=&quot;highlighter-rouge&quot;&gt;.btn&lt;/code&gt; class.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-11-arduino-passive-motion-sensor/step11.png&quot; alt=&quot;step11&quot; /&gt;&lt;/p&gt;
 
-&lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn&quot;&gt;This is a button&lt;/a&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more.</summary></entry></feed>
+&lt;h3 id=&quot;step-12-open-the-serial-monitor&quot;&gt;Step 12) Open the serial monitor&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-11-arduino-passive-motion-sensor/step13.png&quot; alt=&quot;step13&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-13-upload-the-arduino-sketch&quot;&gt;Step 13) Upload the arduino sketch&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-11-arduino-passive-motion-sensor/step12.png&quot; alt=&quot;step12&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;challenge-projects&quot;&gt;Challenge Projects&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Count the number of times that sensor has found something and display that in the serial monitor.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Use Serial.readStringUntil to build something that you can use to send commands to the arduino and control the 
+delay in the program.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Do your own thing and build something on top it, aka just have fun. :)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://playground.arduino.cc/Code/PIRsense&quot;&gt;https://playground.arduino.cc/Code/PIRsense&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/using-a-pir&quot;&gt;https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/using-a-pir&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Arduino Passive Motion Sensor (PIR) Work Book.</summary></entry><entry><title type="html">Arduino 101 Input &amp;amp; Output Work Book</title><link href="http://localhost:4000/articles/arduino-input-output/" rel="alternate" type="text/html" title="Arduino 101 Input &amp; Output Work Book" /><published>2017-09-10T00:00:00-05:00</published><updated>2017-09-10T00:00:00-05:00</updated><id>http://localhost:4000/articles/arduino-input-output</id><content type="html" xml:base="http://localhost:4000/articles/arduino-input-output/">&lt;h2 id=&quot;project-kit-for-the-workbook&quot;&gt;Project Kit For the Workbook&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-10-arduino-input-output/kit.jpg&quot; alt=&quot;kit&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;bill-of-materials&quot;&gt;Bill of Materials&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1 x Arduino Uno&lt;/li&gt;
+  &lt;li&gt;1 x led&lt;/li&gt;
+  &lt;li&gt;1 x 220 Ohm Resistor&lt;/li&gt;
+  &lt;li&gt;2 x jumper wires&lt;/li&gt;
+  &lt;li&gt;2 x regular wires&lt;/li&gt;
+  &lt;li&gt;1 x push button&lt;/li&gt;
+  &lt;li&gt;1 x breadboard&lt;/li&gt;
+  &lt;li&gt;1 x usb type b cable&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;steps&quot;&gt;Steps&lt;/h2&gt;
+
+&lt;p&gt;Before you begin be sure you have the &lt;a href=&quot;https://www.arduino.cc/en/Main/Software&quot;&gt;arduino ide&lt;/a&gt; installed.  You might want to review the &lt;a href=&quot;https://docs.google.com/presentation/d/1MoRwCLQkwIvOVirSYqP_qpZK4cVCWzgDfzAIcsbjcqk/edit?usp=sharing&quot;&gt;class presentation&lt;/a&gt;
+if you found this on the internet.&lt;/p&gt;
+
+&lt;p&gt;1) Adjust the arduino setting / preferences to include line numbers and click Ok.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-10-arduino-input-output/step1a.png&quot; alt=&quot;step1a&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-10-arduino-input-output/step1b.png&quot; alt=&quot;step1b&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;2) Plug the arduino into the computer.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-10-arduino-input-output/step2a.jpg&quot; alt=&quot;step2a&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-10-arduino-input-output/step2b.jpg&quot; alt=&quot;step2b&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;3) Go to tools -&amp;gt; boards -&amp;gt; and select the (Arduino/Genuino Uno)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-10-arduino-input-output/step3.png&quot; alt=&quot;step3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;4) Go to tools -&amp;gt; ports -&amp;gt; and select the usb port the arduino is plugged into.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-10-arduino-input-output/step4.png&quot; alt=&quot;step4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;5) Go to files -&amp;gt; examples -&amp;gt; and select blink program.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-10-arduino-input-output/step5.png&quot; alt=&quot;step5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;6) Now click the upload button on the arudino ide.  It looks like a play button.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-10-arduino-input-output/step6.png&quot; alt=&quot;step6&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;7) The arduino should now blink every second.  Congrats!! You uploaded your first arduino program.  Remember that pin 13, is the built in led.  The red circle is where pin 13 is.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-10-arduino-input-output/step7a.jpg&quot; alt=&quot;step7a&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-10-arduino-input-output/step7b.jpg&quot; alt=&quot;step7b&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;8) The take breadboard and put the positive (long end) of the led into (3, f) and the short end into (5, f) of the breadboard.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-10-arduino-input-output/step8.jpg&quot; alt=&quot;step8&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;9) Take the resistor and plug that into (3, g) and (1, i) of the breadboard.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-10-arduino-input-output/step9.jpg&quot; alt=&quot;step9&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;10) Take one jumper wire and plug it into pin (1, j) and the other jumper wire and plug it into (5,j).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-10-arduino-input-output/step10.jpg&quot; alt=&quot;step10&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;11) Take the jumper wire plugged into (1,j) and plug it into pin 7 of the arduino.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-10-arduino-input-output/step11.jpg&quot; alt=&quot;step11&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;12) Take the other jumper wire and plug it into ground of the arduino.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-10-arduino-input-output/step12.jpg&quot; alt=&quot;step12&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;13) Now open a new arduino sketch and paste in this code and paste the code in below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-10-arduino-input-output/step13.png&quot; alt=&quot;step13&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// This is the pin connected to the led
+int led = 7;
+
+void setup() {
+  // Here we are saying that the pin will be an output pin
+  // This means that this pin will output electricity.
+  pinMode(led, OUTPUT);
+
+}
+
+void loop() {
+  // This will turn the led on
+  digitalWrite(led, HIGH);
+  // This will make the program wait 1 second
+  delay(1000);
+  // This will turn the led off
+  digitalWrite(led, LOW);
+  // This will make the program wait another second
+  delay(1000);
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;14) Now upload the arduino sketch like you did in step 6.  You should see the led blink.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-10-arduino-input-output/step14a.jpg&quot; alt=&quot;step14a&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-10-arduino-input-output/step14b.jpg&quot; alt=&quot;step14b&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;15) Next we are going to hook up the button.  Take one end of the push button and plug that into ground (gnd).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-10-arduino-input-output/step15.jpg&quot; alt=&quot;step15&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;16) Plug the other wire of the button into pin 3.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-10-arduino-input-output/step16a.jpg&quot; alt=&quot;step16a&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-10-arduino-input-output/step16b.jpg&quot; alt=&quot;step16b&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;17) Now paste the code in below.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// This is the pin connected to the led
+int led = 7;
+int button = 3;
+
+void setup() {
+  // Here we are saying that the pin will be an output pin
+  // This means that this pin will output electricity.
+  pinMode(led, OUTPUT);
+  pinMode(button, INPUT_PULLUP);
+}
+
+void loop() {
+
+  if (digitalRead(button) == false) {
+     digitalWrite(led, HIGH);
+  }
+  else {
+     digitalWrite(led, LOW);
+  }
+  
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;18) Upload the code like you did in steps 6 and 14 to the arduino.  When u push the button the light should go on.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-10-arduino-input-output/step18a.jpg&quot; alt=&quot;step18a&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2017-09-10-arduino-input-output/step18b.jpg&quot; alt=&quot;step18b&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;challenge-projects&quot;&gt;Challenge Projects&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Write code so the push button can act like a light switch.  You push it once and it turns on the light and you push it again it turns off light.  So it does not require continually pushing.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Make it so that the light blinks the number of times the button has been pushed&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Just have fun and do what you want :)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.arduino.cc&quot;&gt;https://www.arduino.cc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.instructables.com/id/Arduino-Projects/&quot;&gt;http://www.instructables.com/id/Arduino-Projects/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://create.arduino.cc/projecthub&quot;&gt;https://create.arduino.cc/projecthub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://circuitdigest.com/arduino-projects&quot;&gt;https://circuitdigest.com/arduino-projects&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://makezine.com&quot;&gt;https://makezine.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Arduino Basic.</summary></entry></feed>

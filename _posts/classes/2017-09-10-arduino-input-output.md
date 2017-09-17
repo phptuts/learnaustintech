@@ -2,7 +2,7 @@
 layout: post
 title: Arduino 101 Input & Output Work Book
 excerpt: "Arduino Basic."
-modified: 2017-09-11
+modified: 2017-09-17
 categories: articles
 comments: true
 share: true
@@ -30,84 +30,137 @@ share: true
 Before you begin be sure you have the [arduino ide](https://www.arduino.cc/en/Main/Software) installed.  You might want to review the [class presentation](https://docs.google.com/presentation/d/1MoRwCLQkwIvOVirSYqP_qpZK4cVCWzgDfzAIcsbjcqk/edit?usp=sharing)
 if you found this on the internet.
 
-### PreStep) Adjust the arduino setting / preferences to include line numbers and click Ok.
+1) Adjust the arduino setting / preferences to include line numbers and click Ok.
 
-![prestep1](/images/2017-09-10-arduino-input-output/prestep1.png)
+![step1a](/images/2017-09-10-arduino-input-output/step1a.png)
 
-![prestep2](/images/2017-09-10-arduino-input-output/prestep2.png)
+![step1b](/images/2017-09-10-arduino-input-output/step1b.png)
 
-### Step 1) Take the long side of led place it into breadboard (5,f) and short side into (7, f)
 
-![step1](/images/2017-09-10-arduino-input-output/step1.jpg)
+2) Plug the arduino into the computer.
 
-### Step 2) Take the resistor and plug one end into (5, g) and the other end into (2, i)
+![step2a](/images/2017-09-10-arduino-input-output/step2a.jpg)
 
-![step2](/images/2017-09-10-arduino-input-output/step2.jpg)
+![step2b](/images/2017-09-10-arduino-input-output/step2b.jpg)
 
-### Step 3) Take one jumper wire and plug into (7, j) and the other jumper wire and plug into (2, j)
+3) Go to tools -> boards -> and select the (Arduino/Genuino Uno)
 
-![step3](/images/2017-09-10-arduino-input-output/step3.jpg)
+![step3](/images/2017-09-10-arduino-input-output/step3.png)
 
-### Step 4) Take jumper wire plugged into (2, j) and plug it into pin 4 of the arduino
+4) Go to tools -> ports -> and select the usb port the arduino is plugged into.
 
-![step4](/images/2017-09-10-arduino-input-output/step4.jpg)
+![step4](/images/2017-09-10-arduino-input-output/step4.png)
 
-### Step 5) Take jumper wire plugged into (7, j) and plug it into ground (gnd) in the arduino
+5) Go to files -> examples -> and select blink program.
 
-![step5](/images/2017-09-10-arduino-input-output/step5.jpg)
+![step5](/images/2017-09-10-arduino-input-output/step5.png)
 
-### Step 6) Take one of the wires plugged into the button and put it into pin 5
+6) Now click the upload button on the arudino ide.  It looks like a play button.
 
-![step6](/images/2017-09-10-arduino-input-output/step6.jpg)
+![step6](/images/2017-09-10-arduino-input-output/step6.png)
 
-### Step 7) Take the over wire and plug it into ground (gnd)
+7) The arduino should now blink every second.  Congrats!! You uploaded your first arduino program.  Remember that pin 13, is the built in led.  The red circle is where pin 13 is.
 
-![step7](/images/2017-09-10-arduino-input-output/step7.jpg)
+![step7a](/images/2017-09-10-arduino-input-output/step7a.jpg)
 
-### Step 8) Plug the usb cord into the arduino
+![step7b](/images/2017-09-10-arduino-input-output/step7b.jpg)
+
+8) The take breadboard and put the positive (long end) of the led into (3, f) and the short end into (5, f) of the breadboard.
 
 ![step8](/images/2017-09-10-arduino-input-output/step8.jpg)
 
-### Step 9) Open the ide and put copy the code
+9) Take the resistor and plug that into (3, g) and (1, i) of the breadboard.
+
+![step9](/images/2017-09-10-arduino-input-output/step9.jpg)
+
+10) Take one jumper wire and plug it into pin (1, j) and the other jumper wire and plug it into (5,j).
+
+![step10](/images/2017-09-10-arduino-input-output/step10.jpg)
+
+11) Take the jumper wire plugged into (1,j) and plug it into pin 7 of the arduino.
+
+![step11](/images/2017-09-10-arduino-input-output/step11.jpg)
+
+12) Take the other jumper wire and plug it into ground of the arduino.
+
+![step12](/images/2017-09-10-arduino-input-output/step12.jpg)
+
+13) Now open a new arduino sketch and paste in this code and paste the code in below.
+
+![step13](/images/2017-09-10-arduino-input-output/step13.png)
 
 ```
-int btn = 5;
-int led = 4;
+// This is the pin connected to the led
+int led = 7;
 
 void setup() {
-  // put your setup code here, to run once:
-  pinMode(btn, INPUT);
+  // Here we are saying that the pin will be an output pin
+  // This means that this pin will output electricity.
   pinMode(led, OUTPUT);
+
 }
 
 void loop() {
-  // Because this means that btn is pressed and 
-  // and that electricity is flowing toward ground
-  if (digitalRead(btn)) {
+  // This will turn the led on
+  digitalWrite(led, HIGH);
+  // This will make the program wait 1 second
+  delay(1000);
+  // This will turn the led off
+  digitalWrite(led, LOW);
+  // This will make the program wait another second
+  delay(1000);
+}
+
+```
+
+14) Now upload the arduino sketch like you did in step 6.  You should see the led blink.
+
+![step14a](/images/2017-09-10-arduino-input-output/step14a.jpg)
+
+![step14b](/images/2017-09-10-arduino-input-output/step14b.jpg)
+
+15) Next we are going to hook up the button.  Take one end of the push button and plug that into ground (gnd).
+
+![step15](/images/2017-09-10-arduino-input-output/step15.jpg)
+
+16) Plug the other wire of the button into pin 3.
+
+![step16a](/images/2017-09-10-arduino-input-output/step16a.jpg)
+
+![step16b](/images/2017-09-10-arduino-input-output/step16b.jpg)
+
+17) Now paste the code in below.
+
+``` 
+// This is the pin connected to the led
+int led = 7;
+int button = 3;
+
+void setup() {
+  // Here we are saying that the pin will be an output pin
+  // This means that this pin will output electricity.
+  pinMode(led, OUTPUT);
+  pinMode(button, INPUT_PULLUP);
+}
+
+void loop() {
+
+  if (digitalRead(button) == false) {
      digitalWrite(led, HIGH);
   }
   else {
      digitalWrite(led, LOW);
   }
-
-  delay(100);
+  
 }
 ```
 
-### Step 10) Select the usb port for the arduino (tools -> ports )
+18) Upload the code like you did in steps 6 and 14 to the arduino.  When u push the button the light should go on.
 
-![step10](/images/2017-09-10-arduino-input-output/step10.png)
+![step18a](/images/2017-09-10-arduino-input-output/step18a.jpg)
 
+![step18b](/images/2017-09-10-arduino-input-output/step18b.jpg)
 
-### Step 11) Click the upload button on the arduino id
-
-![step11](/images/2017-09-10-arduino-input-output/step11.png)
-
-### Step 12) Play with the final project
-
-![finalprojectoff](/images/2017-09-10-arduino-input-output/final-result-btn-off.jpg)
-
-![finalprojecton](/images/2017-09-10-arduino-input-output/final-result-btn-on.jpg)
 
 
 ## Challenge Projects
