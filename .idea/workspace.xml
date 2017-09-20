@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed925eb5-c7ba-4d73-bab6-38ee5c86172f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/articles/sample-post/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/final-result-btn-off.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/final-result-btn-on.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/prestep1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/prestep2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/step1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/step10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/step11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/step2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/step3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/step4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/step5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/step6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/step7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/step8.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/kit.jpg" afterPath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/kit.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/classes/2017-09-10-arduino-input-output.md" afterPath="$PROJECT_DIR$/_posts/classes/2017-09-10-arduino-input-output.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about/index.html" afterPath="$PROJECT_DIR$/_site/about/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/classes/index.html" afterPath="$PROJECT_DIR$/_site/classes/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/search.json" afterPath="$PROJECT_DIR$/_site/search.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/sitemap.xml" afterPath="$PROJECT_DIR$/_site/sitemap.xml" />
-    </list>
+    <list default="true" id="ed925eb5-c7ba-4d73-bab6-38ee5c86172f" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +19,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/classes/2017-09-10-arduino-input-output.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="60">
-                <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+              <first_editor relative-caret-position="495">
+                <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -441,16 +416,16 @@
       <workItem from="1505164482470" duration="4429000" />
       <workItem from="1505173551766" duration="1662000" />
       <workItem from="1505360886310" duration="7723000" />
-      <workItem from="1505682221738" duration="4468000" />
+      <workItem from="1505682221738" duration="4931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35282000" />
+    <option name="totallyTimeSpent" value="35745000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1437" height="817" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24982603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -735,8 +710,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/classes/2017-09-10-arduino-input-output.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <first_editor relative-caret-position="495">
+            <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
