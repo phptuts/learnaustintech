@@ -262,7 +262,7 @@ Now we are going to learn about if blocks.  If blocks are used to make decisions
 
 - Make it so that when you push the button the led blinks 2 times.
 
-- Ask for a second led and wire set.  Hook the other led to the side of the led.  Make it so that when you push the button it makes the right led on and the left led off.  And when you don't push the button make it so that the opposite happens. 
+- Ask for a second led and wire set.  Hook the other led to the side of the led in the breadboard.  Make it so that when you push the button it makes the right led on and the left led off.  And when you don't push the button make it so that the opposite happens. You will want to hook the short side of the led to the blue end of the breadboard and the long side of the led to pin 4 of the arduino. 
 
 - Just have fun and do what you want :)
 
