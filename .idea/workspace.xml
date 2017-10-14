@@ -2,126 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed925eb5-c7ba-4d73-bab6-38ee5c86172f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/kit.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step10a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step10b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step10c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step10d.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step18a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step18b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step19a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step19b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step20a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step20b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step21.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step22a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step22b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step24a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step24b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step25a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step25b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step26a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step26b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step27.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step28.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step29.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step30.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step31.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step32a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step32b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step33a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step33b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step34a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step34b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step34c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step35a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step35b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step36a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step36b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step37a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step37b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step38a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step38b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step39a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step39b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step40a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step40b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step41a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step41b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step42a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step42b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step8a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step8b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step9a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step9b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/arduino/2017-09-10-arduino-input-output.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arduino/index.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/classes/2017-09-10-arduino-input-output.md" afterPath="$PROJECT_DIR$/_posts/arduino-block/2017-10-12-input-output.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/classes/2017-09-11-arduino-passive-motion-sensor.md" afterPath="$PROJECT_DIR$/_posts/arduino/2017-09-11-arduino-passive-motion-sensor.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/kit.jpg" afterPath="$PROJECT_DIR$/images/arduino/2017-09-10-arduino-input-output/kit.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/step.jpg" afterPath="$PROJECT_DIR$/images/arduino/2017-09-10-arduino-input-output/step.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/step10.jpg" afterPath="$PROJECT_DIR$/images/arduino/2017-09-10-arduino-input-output/step10.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/step11.jpg" afterPath="$PROJECT_DIR$/images/arduino/2017-09-10-arduino-input-output/step11.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/step12.jpg" afterPath="$PROJECT_DIR$/images/arduino/2017-09-10-arduino-input-output/step12.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/step13.png" afterPath="$PROJECT_DIR$/images/arduino/2017-09-10-arduino-input-output/step13.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/step14a.jpg" afterPath="$PROJECT_DIR$/images/arduino/2017-09-10-arduino-input-output/step14a.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/step14b.jpg" afterPath="$PROJECT_DIR$/images/arduino/2017-09-10-arduino-input-output/step14b.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/step15.jpg" afterPath="$PROJECT_DIR$/images/arduino/2017-09-10-arduino-input-output/step15.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/step16a.jpg" afterPath="$PROJECT_DIR$/images/arduino/2017-09-10-arduino-input-output/step16a.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/step16b.jpg" afterPath="$PROJECT_DIR$/images/arduino/2017-09-10-arduino-input-output/step16b.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/step18a.jpg" afterPath="$PROJECT_DIR$/images/arduino/2017-09-10-arduino-input-output/step18a.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/step18b.jpg" afterPath="$PROJECT_DIR$/images/arduino/2017-09-10-arduino-input-output/step18b.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/step1a.png" afterPath="$PROJECT_DIR$/images/arduino/2017-09-10-arduino-input-output/step1a.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/step1b.png" afterPath="$PROJECT_DIR$/images/arduino/2017-09-10-arduino-input-output/step1b.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/step2a.jpg" afterPath="$PROJECT_DIR$/images/arduino/2017-09-10-arduino-input-output/step2a.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/step2b.jpg" afterPath="$PROJECT_DIR$/images/arduino/2017-09-10-arduino-input-output/step2b.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/step3.png" afterPath="$PROJECT_DIR$/images/arduino/2017-09-10-arduino-input-output/step3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/step4.png" afterPath="$PROJECT_DIR$/images/arduino/2017-09-10-arduino-input-output/step4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/step5.png" afterPath="$PROJECT_DIR$/images/arduino/2017-09-10-arduino-input-output/step5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/step6.png" afterPath="$PROJECT_DIR$/images/arduino/2017-09-10-arduino-input-output/step6.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/step7a.jpg" afterPath="$PROJECT_DIR$/images/arduino/2017-09-10-arduino-input-output/step7a.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/step7b.jpg" afterPath="$PROJECT_DIR$/images/arduino/2017-09-10-arduino-input-output/step7b.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/step8.jpg" afterPath="$PROJECT_DIR$/images/arduino/2017-09-10-arduino-input-output/step8.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-10-arduino-input-output/step9.jpg" afterPath="$PROJECT_DIR$/images/arduino/2017-09-10-arduino-input-output/step9.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-11-arduino-passive-motion-sensor/kit.jpg" afterPath="$PROJECT_DIR$/images/arduino/2017-09-11-arduino-passive-motion-sensor/kit.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-11-arduino-passive-motion-sensor/looklike.jpg" afterPath="$PROJECT_DIR$/images/arduino/2017-09-11-arduino-passive-motion-sensor/looklike.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-11-arduino-passive-motion-sensor/step1.jpg" afterPath="$PROJECT_DIR$/images/arduino/2017-09-11-arduino-passive-motion-sensor/step1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-11-arduino-passive-motion-sensor/step11.png" afterPath="$PROJECT_DIR$/images/arduino/2017-09-11-arduino-passive-motion-sensor/step11.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-11-arduino-passive-motion-sensor/step12.png" afterPath="$PROJECT_DIR$/images/arduino/2017-09-11-arduino-passive-motion-sensor/step12.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-11-arduino-passive-motion-sensor/step13.png" afterPath="$PROJECT_DIR$/images/arduino/2017-09-11-arduino-passive-motion-sensor/step13.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-11-arduino-passive-motion-sensor/step2.jpg" afterPath="$PROJECT_DIR$/images/arduino/2017-09-11-arduino-passive-motion-sensor/step2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-11-arduino-passive-motion-sensor/step3.jpg" afterPath="$PROJECT_DIR$/images/arduino/2017-09-11-arduino-passive-motion-sensor/step3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-11-arduino-passive-motion-sensor/step4.jpg" afterPath="$PROJECT_DIR$/images/arduino/2017-09-11-arduino-passive-motion-sensor/step4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-11-arduino-passive-motion-sensor/step5.jpg" afterPath="$PROJECT_DIR$/images/arduino/2017-09-11-arduino-passive-motion-sensor/step5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-11-arduino-passive-motion-sensor/step6.jpg" afterPath="$PROJECT_DIR$/images/arduino/2017-09-11-arduino-passive-motion-sensor/step6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-11-arduino-passive-motion-sensor/step7.jpg" afterPath="$PROJECT_DIR$/images/arduino/2017-09-11-arduino-passive-motion-sensor/step7.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-11-arduino-passive-motion-sensor/step8.jpg" afterPath="$PROJECT_DIR$/images/arduino/2017-09-11-arduino-passive-motion-sensor/step8.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/2017-09-11-arduino-passive-motion-sensor/step9.jpg" afterPath="$PROJECT_DIR$/images/arduino/2017-09-11-arduino-passive-motion-sensor/step9.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_data/navigation.yml" afterPath="$PROJECT_DIR$/_data/navigation.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/classes/2017-09-13-esp8266-wifi-controlled-christmas-lights.md" afterPath="$PROJECT_DIR$/_posts/classes/2017-09-13-esp8266-wifi-controlled-christmas-lights.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/404.html" afterPath="$PROJECT_DIR$/_site/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about/index.html" afterPath="$PROJECT_DIR$/_site/about/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/calendar/index.html" afterPath="$PROJECT_DIR$/_site/calendar/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/classes/index.html" afterPath="$PROJECT_DIR$/_site/classes/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/contact/index.html" afterPath="$PROJECT_DIR$/_site/contact/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/search.json" afterPath="$PROJECT_DIR$/_site/search.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/search/index.html" afterPath="$PROJECT_DIR$/_site/search/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/sitemap.xml" afterPath="$PROJECT_DIR$/_site/sitemap.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/tags/index.html" afterPath="$PROJECT_DIR$/_site/tags/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/arduino-block/2017-10-12-input-output.md" afterPath="$PROJECT_DIR$/_posts/arduino-block/2017-10-12-input-output.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -136,12 +17,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2017-10-12-input-output.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2017-10-12-input-output.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/arduino-block/2017-10-12-input-output.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="30">
-                <caret line="2" column="45" lean-forward="false" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+              <first_editor relative-caret-position="4515">
+                <caret line="264" column="226" lean-forward="false" selection-start-line="264" selection-start-column="226" selection-end-line="264" selection-end-column="226" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -149,11 +30,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-09-10-arduino-input-output.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="step29.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step29.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-09-10-arduino-input-output.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/arduino/2017-09-10-arduino-input-output.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="345">
+              <first_editor relative-caret-position="-495">
                 <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
                 <folding />
               </first_editor>
@@ -264,10 +152,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1440" />
-    <option name="y" value="206" />
-    <option name="width" value="1360" />
-    <option name="height" value="768" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -555,18 +441,18 @@
       <workItem from="1507492188446" duration="820000" />
       <workItem from="1507688797387" duration="5723000" />
       <workItem from="1507851317473" duration="1121000" />
-      <workItem from="1507951597874" duration="15398000" />
+      <workItem from="1507951597874" duration="16983000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60363000" />
+    <option name="totallyTimeSpent" value="61948000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="206" width="1360" height="768" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26397058" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24930556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -599,7 +485,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/theme-setup/index.md" />
     <entry file="file://$PROJECT_DIR$/about/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -874,22 +759,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/arduino-block/2017-10-12-input-output.md">
+    <entry file="file://$PROJECT_DIR$/_posts/arduino/2017-09-10-arduino-input-output.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="45" lean-forward="false" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+          <first_editor relative-caret-position="-495">
+            <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/arduino/2017-09-10-arduino-input-output.md">
+    <entry file="file://$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step29.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/arduino-block/2017-10-12-input-output.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="345">
-            <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <first_editor relative-caret-position="4515">
+            <caret line="264" column="226" lean-forward="false" selection-start-line="264" selection-start-column="226" selection-end-line="264" selection-end-column="226" />
             <folding />
           </first_editor>
           <second_editor />
