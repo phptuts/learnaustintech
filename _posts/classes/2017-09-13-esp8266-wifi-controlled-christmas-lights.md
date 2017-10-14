@@ -3,9 +3,10 @@ layout: post
 title: Wifi Controlled Christmas Lights Using Node and ESP8266 Chip
 excerpt: "Wifi Controlled Christmas Lights Using Node Js and ESP8266 Chip"
 modified: 2017-09-13
-categories: articles
+categories: esp8266
 comments: true
 share: true
+sort_order: 1
 ---
 
 ## Project Kit 
