@@ -1,4 +1,268 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-10-14T15:17:08-05:00</updated><id>http://localhost:4000/</id><title type="html">Get started learning technology in Austin. :)</title><subtitle>This is .</subtitle><entry><title type="html">Arduino 101 Input &amp;amp; Output With Blocks</title><link href="http://localhost:4000/arduino_block/input-output/" rel="alternate" type="text/html" title="Arduino 101 Input &amp; Output With Blocks" /><published>2017-10-12T00:00:00-05:00</published><updated>2017-10-12T00:00:00-05:00</updated><id>http://localhost:4000/arduino_block/input-output</id><content type="html" xml:base="http://localhost:4000/arduino_block/input-output/">&lt;h2 id=&quot;project-kit-for-the-workbook&quot;&gt;Project Kit For the Workbook&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-10-15T03:44:56-05:00</updated><id>http://localhost:4000/</id><title type="html">Get started learning technology in Austin. :)</title><subtitle>This is .</subtitle><entry><title type="html">Passive Motion Sensor (PIR) With Blocks</title><link href="http://localhost:4000/arduino_block/passive-motion-sensor/" rel="alternate" type="text/html" title="Passive Motion Sensor (PIR) With Blocks" /><published>2017-10-14T00:00:00-05:00</published><updated>2017-10-14T00:00:00-05:00</updated><id>http://localhost:4000/arduino_block/passive-motion-sensor</id><content type="html" xml:base="http://localhost:4000/arduino_block/passive-motion-sensor/">&lt;h2 id=&quot;project-kit-for-the-workbook&quot;&gt;Project Kit For the Workbook&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/kit.jpg&quot; alt=&quot;kit&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;bill-of-materials&quot;&gt;Bill of Materials&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1 x Arduino Uno&lt;/li&gt;
+  &lt;li&gt;1 x led&lt;/li&gt;
+  &lt;li&gt;1 x 220 Ohm Resistor&lt;/li&gt;
+  &lt;li&gt;3 x jumper wires m to m&lt;/li&gt;
+  &lt;li&gt;3 x jumper wire m to f&lt;/li&gt;
+  &lt;li&gt;1 x passive motion sensor&lt;/li&gt;
+  &lt;li&gt;1 x breadboard&lt;/li&gt;
+  &lt;li&gt;1 x usb type b cable&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;steps&quot;&gt;Steps&lt;/h2&gt;
+
+&lt;p&gt;If you have not setup your block environment go &lt;a href=&quot;http://learntechaustin.com/arduino_block/input-output/&quot;&gt;here&lt;/a&gt; and do steps 1 through 4.&lt;/p&gt;
+
+&lt;p&gt;1) Open a command prompt / terminal and type in:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd ~/Desktop/ArduinoBlocks/ 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-12-input-output/step5.png&quot; alt=&quot;step1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;2) In the command prompt type:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;python arduino_web_server.py 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-12-input-output/step6.png&quot; alt=&quot;step2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;3) Now open your &lt;a href=&quot;http://127.0.0.1:8080/&quot;&gt;Block Environment&lt;/a&gt;, http://127.0.0.1:8080/.  Click on Discard if you see blocks on the screen.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step3.png&quot; alt=&quot;step3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;4) Plug your arduino into the computer.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step4a.jpg&quot; alt=&quot;step4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step4a.jpg&quot; alt=&quot;step4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;5) (Challenge) Can you make built in led (pin 13) blink every second like we did in the first class.  Ask if you need help.  This is a test step, meaning that we want to test something small before we build something big.  It’a good habit to get into.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step5a.jpg&quot; alt=&quot;step5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step5b.jpg&quot; alt=&quot;step5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;6) Take the long end of the led and plug it into (3,e) of the breadboard and plug the short end of the led into (5, e).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step6.jpg&quot; alt=&quot;step6&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;7) Take one end of the resistor and plug it into (3, d) and take the other end of the resistor and plug it into (1, b).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step7.jpg&quot; alt=&quot;step7&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;8) Take a  male to male jumper wire and plug it into (1,a) of the breadboard. Take other end and plug it into pin 7 of the arduino.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step8.jpg&quot; alt=&quot;step8&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;9) Take a male to male jumper wire and plug it into (5, a) of the breadboard. Take the other end and plug it into ground (gnd) of the arduino.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step9.jpg&quot; alt=&quot;step8&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;10) (Challenge) Can you take the current program and change it make the led on the breadboard blink.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step10a.jpg&quot; alt=&quot;step10&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step10b.jpg&quot; alt=&quot;step10&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now we are going to hook up the motion sensor.  This motion sensor will send electricity from the S pin to the arduino if it senses&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/back-sensor.jpg&quot; alt=&quot;back of sensor&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;11) Take a male to female jumper wire and plug one side into the S pin and the other side into pin 2 of the arduino.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step11.jpg&quot; alt=&quot;step11&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;12) Take a male to female jumper wire and plug one side into the + side of the sensor. Take the other side of the wire and plug it into 3.3 volts of the arduino.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step12.jpg&quot; alt=&quot;step12&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;13) Take a male to female jumper wire and plug one side into the - and the other side into ground (gnd) of the arduino.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step13.jpg&quot; alt=&quot;step13&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;14) Go back to the block webpage and clear out all the blocks on the page.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step14.png&quot; alt=&quot;step14&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We are going to logout the output of pin 2 to see what happens when something is sensed.  But before we do stand up and take 5 deep breaths.  You are doing great!!!&lt;/p&gt;
+
+&lt;p&gt;15) Drag the digital read block from the Input/Output toolbox on the screen.  Set it to pin 2.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step15a.png&quot; alt=&quot;step15&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step15b.png&quot; alt=&quot;step15&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;16) Drag the Serial Print Block onto the screen and hook it into the DigitalRead block. Besure and delete the green quotes block.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step16a.png&quot; alt=&quot;step16&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step16b.png&quot; alt=&quot;step16&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;17) Drag the delay block and set that blocks number 100 milli seconds.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step17a.png&quot; alt=&quot;step17&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step17b.png&quot; alt=&quot;step17&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;18) Click the upload button to upload the code the arduino.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step18.png&quot; alt=&quot;step18&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;19) Open the Arduino IDE and go to Tools -&amp;gt; Ports and select the USB port the arduino is on.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step19.png&quot; alt=&quot;step19&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;20) Click on the magnifying class of arduino ide and open the serial monitor.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step20.png&quot; alt=&quot;step20&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;21) Notice that serial monitor is prints 0.  Put your hand over the arduino.  Notice that the serial monitor says 1.  Based on this we know that if it senses something it will equal 1.  Otherwise it will equal 0.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step21.png&quot; alt=&quot;step21&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;22) (Challenge) Try to build a program from scratch that will turn on the led when it senses something and turn it off when it does not sense anything.  This is very similar to the code your wrote in first lesson.  Ask questions if you need help.&lt;/p&gt;
+
+&lt;p&gt;23) (Challenge) See how far way an object needs to be fore the led goes off.&lt;/p&gt;
+
+&lt;p&gt;24) Go ahead and stand up and walk around for a minute.  Observe what the other students are doing.  Ask questions and see if you can help anyone out. :)&lt;/p&gt;
+
+&lt;p&gt;Next we are going to learn about loops.  Loops are used make stuff run on repeat.  They are often used to go through a list of things.  We are going to use a loop to make the led blink the number of times the sensor has sensed something.&lt;/p&gt;
+
+&lt;p&gt;We are going to create a global variable. Global variables are created out of the normal program loop.  But can we used and changed inside regular code.&lt;/p&gt;
+
+&lt;p&gt;25) Create a global variable called counter and set it’s value to 0.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step25b.png&quot; alt=&quot;step25&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step25c.png&quot; alt=&quot;step25&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step25d.png&quot; alt=&quot;step25&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step25e.png&quot; alt=&quot;step25&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step25f.png&quot; alt=&quot;step25&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;26) Drag out the serial print block onto the screen and throw away the quotes block attached to it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step26a.png&quot; alt=&quot;step26&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step26b.png&quot; alt=&quot;step26&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;27) Drag the counter variable block and connect it to the serial print block.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step27a.png&quot; alt=&quot;step27&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step27b.png&quot; alt=&quot;step27&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;28) Set the counter variable block to itself + 1.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step28a.png&quot; alt=&quot;step28&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step28b.png&quot; alt=&quot;step28&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step28c.png&quot; alt=&quot;step28&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step28d.png&quot; alt=&quot;step28&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step28e.png&quot; alt=&quot;step28&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step28f.png&quot; alt=&quot;step28&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;29) Now add a delay block to the end of the block chain.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step29.png&quot; alt=&quot;step28&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;30) Click upload and upload the program to the arduino.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step30.png&quot; alt=&quot;step30&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;31) Open the arduino IDE again if you closed it and open the serial monitor by clicking the magnifying glass.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step31.png&quot; alt=&quot;step31&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;32) Notice that the serial monitor is adding one to the next number.  Go ahead and explain to an instructor happening.  Do this before you move onto the next step.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step32.png&quot; alt=&quot;step32&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;33) Delete every block except for the global variable counter block.&lt;/p&gt;
+
+&lt;p&gt;34) Create a variable named sensor that will store the value of the sensor pin.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step34.png&quot; alt=&quot;step34&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;35) Drag the IF block and attach it to the sensor block.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step35a.png&quot; alt=&quot;step35&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step35b.png&quot; alt=&quot;step35&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;36) Drag the compare block onto the screen and attach it to the if block.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step36a.png&quot; alt=&quot;step36&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step36b.png&quot; alt=&quot;step36&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Remember how if the sensor is on the it will send electricity to the pin in the arduino.  The arduino represents this as a 1.  So we now need to say that if the sensor pin = 1 we want to do something.&lt;/p&gt;
+
+&lt;p&gt;37) Drag a number block and the sensor variable into the compare block.  Set the number block equal to 1.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step37.png&quot; alt=&quot;step37&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;38) (Challenge) Inside the if the block add one to counter.  Try to do this without looking at the pictures below this step.&lt;/p&gt;
+
+&lt;p&gt;39) (Challenge) Create a variable inside the IF block that equals 0.  Call it “blink times”.&lt;/p&gt;
+
+&lt;p&gt;The repeat block is a lot like the IF block.  Except for one key difference.  It repeats the blocks inside the repeat space until the  condition is no longer true.  The repeat block is also known as a while loop.  It will run while something is true.&lt;/p&gt;
+
+&lt;p&gt;40) Drag the repeat block onto the screen and put it inside the if block.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step40a.png&quot; alt=&quot;step40&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step40b.png&quot; alt=&quot;step40&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;41) Drag the compare block that was used for the if statement and attach it to the while loop.  Change the equals sign to the less than sign (“&amp;lt;”).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step41a.png&quot; alt=&quot;step41&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step41b.png&quot; alt=&quot;step41&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;42) Put in the variable “blink times” for left side of the compare block and put in the counter block for the right side.  What this means is that the blocks in the  do space will run as long as “blank times” is less than counter.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step42.png&quot; alt=&quot;step42&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;43) Add one to the “blink times” variable block inside the do space.  This way it will not run the forever.  Loops that do not stop are called infinite loops.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step43.png&quot; alt=&quot;step43&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;43) (Challenge) Inside the repeat block make the led blink for a second using the delay block and digitalWrite block.  Once you are done upload that to the arduino.&lt;/p&gt;
+
+&lt;h4 id=&quot;congrats-you-have-done-a-lot--you-learned-about-sensors-global-variables-and-loops&quot;&gt;Congrats you have done a lot.  You learned about sensor’s, global variables, and loops.&lt;/h4&gt;
+
+&lt;h2 id=&quot;challenge-projects&quot;&gt;Challenge Projects&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Add another led that turns on and does not blink while the one that is already setup does.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Serial Print the number of times the sensor has sensed something.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Have fun you earned it!!!&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.arduino.cc&quot;&gt;https://www.arduino.cc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/how-pirs-work&quot;&gt;Passive Motion Sensor&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Arduino Passive Motion Sensor (PIR).</summary></entry><entry><title type="html">Arduino 101 Input &amp;amp; Output With Blocks</title><link href="http://localhost:4000/arduino_block/input-output/" rel="alternate" type="text/html" title="Arduino 101 Input &amp; Output With Blocks" /><published>2017-10-12T00:00:00-05:00</published><updated>2017-10-12T00:00:00-05:00</updated><id>http://localhost:4000/arduino_block/input-output</id><content type="html" xml:base="http://localhost:4000/arduino_block/input-output/">&lt;h2 id=&quot;project-kit-for-the-workbook&quot;&gt;Project Kit For the Workbook&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-12-input-output/kit.jpg&quot; alt=&quot;kit&quot; /&gt;&lt;/p&gt;
 
@@ -936,7 +1200,7 @@ void loop() {
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.arduino.cc&quot;&gt;https://www.arduino.cc&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.instructables.com/id/Arduino-Projects/&quot;&gt;http://www.instructables.com/id/Arduino-Projects/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/how-pirs-work&quot;&gt;Passive Motion Sensor&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://create.arduino.cc/projecthub&quot;&gt;https://create.arduino.cc/projecthub&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://circuitdigest.com/arduino-projects&quot;&gt;https://circuitdigest.com/arduino-projects&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://makezine.com&quot;&gt;https://makezine.com&lt;/a&gt;&lt;/li&gt;

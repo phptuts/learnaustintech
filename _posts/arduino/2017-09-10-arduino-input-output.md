@@ -175,7 +175,7 @@ void loop() {
 ## Resources
 
 - [https://www.arduino.cc](https://www.arduino.cc) 
-- [http://www.instructables.com/id/Arduino-Projects/](http://www.instructables.com/id/Arduino-Projects/) 
+- [Passive Motion Sensor](https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/how-pirs-work) 
 - [https://create.arduino.cc/projecthub](https://create.arduino.cc/projecthub) 
 - [https://circuitdigest.com/arduino-projects](https://circuitdigest.com/arduino-projects) 
 - [https://makezine.com](https://makezine.com)

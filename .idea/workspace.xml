@@ -2,7 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed925eb5-c7ba-4d73-bab6-38ee5c86172f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/arduino-block/2017-10-12-input-output.md" afterPath="$PROJECT_DIR$/_posts/arduino-block/2017-10-12-input-output.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/back-sensor.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/kit.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step10a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step10b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step15a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step15b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step16a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step16b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step17a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step17b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step18.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step19.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step20.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step21.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step25a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step25b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step25c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step25d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step25e.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step25f.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step26a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step26b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step27a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step27b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step28a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step28b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step28c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step28d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step28e.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step28f.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step29.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step30.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step31.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step34.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step35a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step35b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step36a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step36b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step37.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step40a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step40b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step41a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step41b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step42.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step43.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step4a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step4b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step5a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step5b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/arduino-block/2017-10-14-passive-motion-sensor.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/arduino/2017-09-10-arduino-input-output.md" afterPath="$PROJECT_DIR$/_posts/arduino/2017-09-10-arduino-input-output.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/search.json" afterPath="$PROJECT_DIR$/_site/search.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/sitemap.xml" afterPath="$PROJECT_DIR$/_site/sitemap.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,7 +82,46 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2017-10-12-input-output.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2017-09-11-arduino-passive-motion-sensor.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/arduino/2017-09-11-arduino-passive-motion-sensor.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="367">
+                <caret line="115" column="12" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-10-14-passive-motion-sensor.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/arduino-block/2017-10-14-passive-motion-sensor.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="345">
+                <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-09-10-arduino-input-output.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/arduino/2017-09-10-arduino-input-output.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="622">
+                <caret line="180" column="46" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="180" selection-end-column="46" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-10-12-input-output.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/arduino-block/2017-10-12-input-output.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -30,49 +134,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="step29.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step29.png">
+      <file leaf-file-name="step41a.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step41a.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-09-10-arduino-input-output.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/arduino/2017-09-10-arduino-input-output.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="345">
-                <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
+      <file leaf-file-name="step40b.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step40b.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-09-11-arduino-passive-motion-sensor.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/arduino/2017-09-11-arduino-passive-motion-sensor.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="75">
-                <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
+      <file leaf-file-name="step3.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step3.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arduino/index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="255">
-                <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
+      <file leaf-file-name="step6.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step6.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="step7.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step7.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -93,9 +186,12 @@
       <find>articles</find>
       <find>images/</find>
       <find>categories</find>
+      <find>25</find>
     </findStrings>
     <replaceStrings>
       <replace>images/arduino/</replace>
+      <replace>25</replace>
+      <replace>28</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/_posts</dir>
@@ -132,7 +228,6 @@
         <option value="$PROJECT_DIR$/_posts/classes/2017-09-13-esp8266-wifi-controlled-christmas-lights-kit1.md" />
         <option value="$PROJECT_DIR$/_posts/classes/2017-10-01-arduino-programming.md" />
         <option value="$PROJECT_DIR$/_posts/classes/2017-10-10-arduino-pir-sensor.md" />
-        <option value="$PROJECT_DIR$/_posts/arduino/2017-09-10-arduino-input-output.md" />
         <option value="$PROJECT_DIR$/_data/navigation.yml" />
         <option value="$PROJECT_DIR$/_posts/arduino/2017-10-10-passive-motion-sensor.md" />
         <option value="$PROJECT_DIR$/_posts/arduino-block/2017-09-10-arduino-input-output.md" />
@@ -141,6 +236,8 @@
         <option value="$PROJECT_DIR$/arduino/index.md" />
         <option value="$PROJECT_DIR$/_posts/classes/2017-09-10-arduino-input-output.md" />
         <option value="$PROJECT_DIR$/_posts/arduino-block/2017-10-12-input-output.md" />
+        <option value="$PROJECT_DIR$/_posts/arduino/2017-09-10-arduino-input-output.md" />
+        <option value="$PROJECT_DIR$/_posts/arduino-block/2017-10-14-passive-motion-sensor.md" />
       </list>
     </option>
   </component>
@@ -152,9 +249,12 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="817" />
+    <option name="x" value="1440" />
+    <option name="width" value="1360" />
+    <option name="height" value="768" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -171,6 +271,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -204,6 +306,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="class_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="class_site" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arduino-block" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2017-10-14-passive-motion-sensor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="class_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="class_site" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arduino-block" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -309,8 +451,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -322,21 +462,22 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output" />
-      <recent name="$PROJECT_DIR$/_posts/arduino-block" />
-      <recent name="$PROJECT_DIR$/_posts/arduino" />
-      <recent name="$PROJECT_DIR$/images/arduino" />
-      <recent name="$PROJECT_DIR$/_posts/classes" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor" />
       <recent name="$PROJECT_DIR$/_posts/arduino" />
       <recent name="$PROJECT_DIR$/images/arduino" />
       <recent name="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output" />
       <recent name="$PROJECT_DIR$/images/2017-09-13-esp8266-wifi-controlled-christmas-lights-kit1" />
-      <recent name="$PROJECT_DIR$/images/2017-09-10-arduino-input-output" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor" />
+      <recent name="$PROJECT_DIR$/_posts/arduino-block" />
+      <recent name="$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output" />
+      <recent name="$PROJECT_DIR$/_posts/arduino" />
+      <recent name="$PROJECT_DIR$/images/arduino" />
     </key>
   </component>
   <component name="RunManager">
@@ -442,18 +583,21 @@
       <workItem from="1507688797387" duration="5723000" />
       <workItem from="1507851317473" duration="1121000" />
       <workItem from="1507951597874" duration="16983000" />
-      <workItem from="1508012143893" duration="69000" />
+      <workItem from="1508012143893" duration="724000" />
+      <workItem from="1508017229541" duration="1446000" />
+      <workItem from="1508034719319" duration="4300000" />
+      <workItem from="1508045886180" duration="9060000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62017000" />
+    <option name="totallyTimeSpent" value="77478000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="817" extended-state="0" />
+    <frame x="1440" y="0" width="1360" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24930556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26397058" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -486,108 +630,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/about/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="315">
-            <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_forms.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="282" column="17" lean-forward="false" selection-start-line="282" selection-start-column="17" selection-end-line="282" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_site/about/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/classes/2011-03-10-sample-post.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/classes/2017-09-04-arduino-input-output.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/classes/2017-09-04-arduino-sonar-sensor.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/classes/2017-09-04-fart-sensor.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/classes/2017-09-05-android-lesson-1.md" />
-    <entry file="file://$PROJECT_DIR$/images/2017-09-11-arduino-passive-motion-sensor/IMAG0052.jpg" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/arduino/2017-09-11-arduino-passive-motion-sensor/step11.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/arduino/2017-09-11-arduino-passive-motion-sensor/step12.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/arduino/2017-09-11-arduino-passive-motion-sensor/step13.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/arduino/2017-09-11-arduino-passive-motion-sensor/step7.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step3c.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/arduino/2017-09-10-arduino-input-output/step4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/arduino/2017-09-10-arduino-input-output/step2b.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/arduino/2017-09-10-arduino-input-output/step5.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/arduino/2017-09-10-arduino-input-output/kit.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/arduino/2017-09-10-arduino-input-output/step6.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/arduino/2017-09-10-arduino-input-output/step7a.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/arduino/2017-09-10-arduino-input-output/step7b.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/arduino/2017-09-10-arduino-input-output/step11.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/classes/2017-10-01-arduino-programming.md" />
     <entry file="file://$PROJECT_DIR$/contact/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -655,11 +697,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/classes/2017-10-10-arduino-pir-sensor.md" />
-    <entry file="file://$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step5.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step13.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -705,45 +742,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/classes/2017-09-13-esp8266-wifi-controlled-christmas-lights.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="120">
-            <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/arduino/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="255">
             <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/arduino/2017-09-11-arduino-passive-motion-sensor.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/arduino/2017-09-10-arduino-input-output.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="345">
-            <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -754,11 +757,169 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step8a.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step8b.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step9a.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step9b.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step5.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step6.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/arduino-block/2017-10-12-input-output/step7.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/classes/2017-09-13-esp8266-wifi-controlled-christmas-lights.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="225">
+            <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step27.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step37.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step40a.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step40b.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step41a.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step41b.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step43.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step42.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/arduino/2017-09-11-arduino-passive-motion-sensor.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="367">
+            <caret line="115" column="12" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/arduino-block/2017-10-12-input-output.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="581">
             <caret line="264" column="398" lean-forward="false" selection-start-line="264" selection-start-column="398" selection-end-line="264" selection-end-column="398" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step25a.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step25b.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step25c.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step25d.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step25f.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/arduino-block/2017-10-14-passive-motion-sensor/step25e.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/arduino/2017-09-10-arduino-input-output.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="622">
+            <caret line="180" column="46" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="180" selection-end-column="46" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/arduino-block/2017-10-14-passive-motion-sensor.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="345">
+            <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
             <folding />
           </first_editor>
           <second_editor />
