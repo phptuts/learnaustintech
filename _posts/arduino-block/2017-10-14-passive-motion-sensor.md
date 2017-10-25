@@ -38,11 +38,11 @@ cd ~/Desktop/ArduinoBlocks/
 
 2) In the command prompt type:
 ``` 
-python arduino_web_server.py 
+sh start.sh
 ``` 
 ![step2](/images/arduino-block/2017-10-12-input-output/step6.png)
 
-3) Now open your [Block Environment](http://127.0.0.1:8080/), http://127.0.0.1:8080/.  Click on Discard if you see blocks on the screen.
+3) Now open your [Block Environment](http://127.0.0.1:3000/), http://127.0.0.1:3000/.  Click on Discard if you see blocks on the screen.
 
 ![step3](/images/arduino-block/2017-10-14-passive-motion-sensor/step3.png)
 
@@ -115,7 +115,7 @@ We are going to logout the output of pin 2 to see what happens when something is
 
 ![step16](/images/arduino-block/2017-10-14-passive-motion-sensor/step16b.png)
 
-17) Drag the delay block and set that blocks number 100 milli seconds.
+17) Drag the delay block and set the number to 100 milli seconds.
 
 ![step17](/images/arduino-block/2017-10-14-passive-motion-sensor/step17a.png)
 
@@ -125,23 +125,21 @@ We are going to logout the output of pin 2 to see what happens when something is
 
 ![step18](/images/arduino-block/2017-10-14-passive-motion-sensor/step18.png)
 
-19) Open the Arduino IDE and go to Tools -> Ports and select the USB port the arduino is on.
+19) Click on logging / debgging to make the serial monitor appear.
 
-![step19](/images/arduino-block/2017-10-14-passive-motion-sensor/step19.png)
-
-20) Click on the magnifying class of arduino ide and open the serial monitor.
-
-![step20](/images/arduino-block/2017-10-14-passive-motion-sensor/step20.png)
-
-21) Notice that serial monitor is prints 0.  Put your hand over the arduino.  Notice that the serial monitor says 1.  Based on this we know that if it senses something it will equal 1.  Otherwise it will equal 0.
-
-![step21](/images/arduino-block/2017-10-14-passive-motion-sensor/step21.png)
-
-22) (Challenge) Try to build a program from scratch that will turn on the led when it senses something and turn it off when it does not sense anything.  This is very similar to the code your wrote in first lesson.  Ask questions if you need help.
+![step19](/images/arduino-block/2017-10-12-input-output/step19.png)
 
 
-23) (Challenge) See how far way an object needs to be fore the led goes off.
+20) Notice that serial monitor is prints 0.  Put your hand over the arduino.  Notice that the serial monitor says 1.  Based on this we know that if it senses something it will equal 1.  Otherwise it will equal 0.
 
+![step20](/images/arduino-block/2017-10-12-input-output/step20.png)
+
+21) (Challenge) Try to build a program from scratch that will turn on the led when it senses something and turn it off when it does not sense anything.  This is very similar to the code your wrote in first lesson.  Ask questions if you need help.
+
+
+22) (Challenge) See how far way an object needs to be fore the led goes off.
+
+23) (Challenge) Use the if block to serial print "I see you" if the sensor outputs 1.
 
 24) Go ahead and stand up and walk around for a minute.  Observe what the other students are doing.  Ask questions and see if you can help anyone out. :)
 
@@ -195,7 +193,7 @@ We are going to create a global variable. Global variables are created out of th
 
 ![step30](/images/arduino-block/2017-10-14-passive-motion-sensor/step30.png)
 
-31) Open the arduino IDE again if you closed it and open the serial monitor by clicking the magnifying glass.
+31) Click on logging / debgging to make the serial monitor appear.
 
 ![step31](/images/arduino-block/2017-10-14-passive-motion-sensor/step31.png)
 
@@ -231,7 +229,7 @@ Remember how if the sensor is on the it will send electricity to the pin in the 
 
 39) (Challenge) Create a variable inside the IF block that equals 0.  Call it "blink times".
 
-The repeat block is a lot like the IF block.  Except for one key difference.  It repeats the blocks inside the repeat space until the  condition is no longer true.  The repeat block is also known as a while loop.  It will run while something is true.
+The repeat block is a lot like the IF block.  Except for one key difference.  It repeats the blocks inside the do until the  condition is no longer true.  The repeat block is also known as a while loop.  It will run while something is true.
 
 40) Drag the repeat block onto the screen and put it inside the if block.
 

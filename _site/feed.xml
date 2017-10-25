@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-10-15T03:49:08-05:00</updated><id>http://localhost:4000/</id><title type="html">Get started learning technology in Austin. :)</title><subtitle>This is .</subtitle><entry><title type="html">Passive Motion Sensor (PIR) With Blocks</title><link href="http://localhost:4000/arduino_block/passive-motion-sensor/" rel="alternate" type="text/html" title="Passive Motion Sensor (PIR) With Blocks" /><published>2017-10-14T00:00:00-05:00</published><updated>2017-10-14T00:00:00-05:00</updated><id>http://localhost:4000/arduino_block/passive-motion-sensor</id><content type="html" xml:base="http://localhost:4000/arduino_block/passive-motion-sensor/">&lt;h2 id=&quot;project-kit-for-the-workbook&quot;&gt;Project Kit For the Workbook&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-10-24T23:22:56-05:00</updated><id>http://localhost:4000/</id><title type="html">Get started learning technology in Austin. :)</title><subtitle>This is .</subtitle><entry><title type="html">Passive Motion Sensor (PIR) With Blocks</title><link href="http://localhost:4000/arduino_block/passive-motion-sensor/" rel="alternate" type="text/html" title="Passive Motion Sensor (PIR) With Blocks" /><published>2017-10-14T00:00:00-05:00</published><updated>2017-10-14T00:00:00-05:00</updated><id>http://localhost:4000/arduino_block/passive-motion-sensor</id><content type="html" xml:base="http://localhost:4000/arduino_block/passive-motion-sensor/">&lt;h2 id=&quot;project-kit-for-the-workbook&quot;&gt;Project Kit For the Workbook&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/kit.jpg&quot; alt=&quot;kit&quot; /&gt;&lt;/p&gt;
 
@@ -26,12 +26,12 @@
 &lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-12-input-output/step5.png&quot; alt=&quot;step1&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;2) In the command prompt type:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;python arduino_web_server.py 
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sh start.sh
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-12-input-output/step6.png&quot; alt=&quot;step2&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;3) Now open your &lt;a href=&quot;http://127.0.0.1:8080/&quot;&gt;Block Environment&lt;/a&gt;, http://127.0.0.1:8080/.  Click on Discard if you see blocks on the screen.&lt;/p&gt;
+&lt;p&gt;3) Now open your &lt;a href=&quot;http://127.0.0.1:3000/&quot;&gt;Block Environment&lt;/a&gt;, http://127.0.0.1:3000/.  Click on Discard if you see blocks on the screen.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step3.png&quot; alt=&quot;step3&quot; /&gt;&lt;/p&gt;
 
@@ -103,7 +103,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step16b.png&quot; alt=&quot;step16&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;17) Drag the delay block and set that blocks number 100 milli seconds.&lt;/p&gt;
+&lt;p&gt;17) Drag the delay block and set the number to 100 milli seconds.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step17a.png&quot; alt=&quot;step17&quot; /&gt;&lt;/p&gt;
 
@@ -113,21 +113,19 @@
 
 &lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step18.png&quot; alt=&quot;step18&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;19) Open the Arduino IDE and go to Tools -&amp;gt; Ports and select the USB port the arduino is on.&lt;/p&gt;
+&lt;p&gt;19) Click on logging / debgging to make the serial monitor appear.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step19.png&quot; alt=&quot;step19&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-12-input-output/step19.png&quot; alt=&quot;step19&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;20) Click on the magnifying class of arduino ide and open the serial monitor.&lt;/p&gt;
+&lt;p&gt;20) Notice that serial monitor is prints 0.  Put your hand over the arduino.  Notice that the serial monitor says 1.  Based on this we know that if it senses something it will equal 1.  Otherwise it will equal 0.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step20.png&quot; alt=&quot;step20&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-12-input-output/step20.png&quot; alt=&quot;step20&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;21) Notice that serial monitor is prints 0.  Put your hand over the arduino.  Notice that the serial monitor says 1.  Based on this we know that if it senses something it will equal 1.  Otherwise it will equal 0.&lt;/p&gt;
+&lt;p&gt;21) (Challenge) Try to build a program from scratch that will turn on the led when it senses something and turn it off when it does not sense anything.  This is very similar to the code your wrote in first lesson.  Ask questions if you need help.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step21.png&quot; alt=&quot;step21&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;22) (Challenge) See how far way an object needs to be fore the led goes off.&lt;/p&gt;
 
-&lt;p&gt;22) (Challenge) Try to build a program from scratch that will turn on the led when it senses something and turn it off when it does not sense anything.  This is very similar to the code your wrote in first lesson.  Ask questions if you need help.&lt;/p&gt;
-
-&lt;p&gt;23) (Challenge) See how far way an object needs to be fore the led goes off.&lt;/p&gt;
+&lt;p&gt;23) (Challenge) Use the if block to serial print “I see you” if the sensor outputs 1.&lt;/p&gt;
 
 &lt;p&gt;24) Go ahead and stand up and walk around for a minute.  Observe what the other students are doing.  Ask questions and see if you can help anyone out. :)&lt;/p&gt;
 
@@ -181,7 +179,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step30.png&quot; alt=&quot;step30&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;31) Open the arduino IDE again if you closed it and open the serial monitor by clicking the magnifying glass.&lt;/p&gt;
+&lt;p&gt;31) Click on logging / debgging to make the serial monitor appear.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/step31.png&quot; alt=&quot;step31&quot; /&gt;&lt;/p&gt;
 
@@ -217,7 +215,7 @@
 
 &lt;p&gt;39) (Challenge) Create a variable inside the IF block that equals 0.  Call it “blink times”.&lt;/p&gt;
 
-&lt;p&gt;The repeat block is a lot like the IF block.  Except for one key difference.  It repeats the blocks inside the repeat space until the  condition is no longer true.  The repeat block is also known as a while loop.  It will run while something is true.&lt;/p&gt;
+&lt;p&gt;The repeat block is a lot like the IF block.  Except for one key difference.  It repeats the blocks inside the do until the  condition is no longer true.  The repeat block is also known as a while loop.  It will run while something is true.&lt;/p&gt;
 
 &lt;p&gt;40) Drag the repeat block onto the screen and put it inside the if block.&lt;/p&gt;
 
@@ -283,9 +281,9 @@
 
 &lt;p&gt;1) Install the &lt;a href=&quot;https://www.arduino.cc/en/Main/Software&quot;&gt;Arduino IDE&lt;/a&gt; for your Operating System.&lt;/p&gt;
 
-&lt;p&gt;2) Install &lt;a href=&quot;https://www.python.org/downloads/release/python-2713/&quot;&gt;python 2.7&lt;/a&gt; for your Operating System.&lt;/p&gt;
+&lt;p&gt;2) Install &lt;a href=&quot;https://nodejs.org/en/download/&quot;&gt;node js&lt;/a&gt; for your Operating System.&lt;/p&gt;
 
-&lt;p&gt;3) Open a command prompt / terminal and type in python –version.  Make sure you see something like this.&lt;/p&gt;
+&lt;p&gt;3) Open a command prompt / terminal and type in node –version.  Make sure you see something like this.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-12-input-output/step3.png&quot; alt=&quot;step3&quot; /&gt;&lt;/p&gt;
 
@@ -298,16 +296,16 @@
 &lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-12-input-output/step5.png&quot; alt=&quot;step4&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;6) In the command prompt type:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;python arduino_web_server.py 
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sh start.sh
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-12-input-output/step6.png&quot; alt=&quot;step6&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;7) Now open your &lt;a href=&quot;http://127.0.0.1:8080/&quot;&gt;Block Environment&lt;/a&gt;, http://127.0.0.1:8080/.  Click on Discard if you see blocks on the screen.&lt;/p&gt;
+&lt;p&gt;7) Now open your &lt;a href=&quot;http://127.0.0.1:3000/&quot;&gt;Block Environment&lt;/a&gt;, http://127.0.0.1:3000/.  Click on discard if you see blocks on the screen.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-12-input-output/step7.png&quot; alt=&quot;step7&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;So you are going to learn how to control the arduino.  You will do this by dragging blocks onto the screen.  Each block represents something that the arduino will do.  The first thing we are going to learn how to do is send electricity to the pin.  The blocks you drag onto the screen will be executed for ever.  Meaning that program will repeat itself until the arduino is unplugged.&lt;/p&gt;
+&lt;p&gt;So you are going to learn how to control the arduino.  You will do this by dragging blocks onto the screen.  Each block represents something that the arduino will do.  The first thing we are going to learn how to do is send electricity to the pin.&lt;/p&gt;
 
 &lt;p&gt;8) Click on Input/Output and drag the DigitalWrite block.  Change the pin to 13 and make sure Stat is HIGH.  High means that the electricity will be sent through that pin.&lt;/p&gt;
 
@@ -429,15 +427,13 @@
 
 &lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-12-input-output/step30.png&quot; alt=&quot;step29&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;31) Open the arduino ide and go to tools -&amp;gt; ports and select the usb port the arduino is on.&lt;/p&gt;
+&lt;p&gt;31) Click on logging / debgging to make the serial monitor appear.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-12-input-output/step31.png&quot; alt=&quot;step31&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;32) Go to tools -&amp;gt; serial monitor.  Notice that this output is 1.  If you press the button it will start to output 0.  So when the button is pressed the block reads 0.  Once you are done with the step be sure and close the serial monitor.&lt;/p&gt;
+&lt;p&gt;32) Push the button and notice that when u push the button the output is 0 and that when u let go of the button it is 1.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-12-input-output/step32a.png&quot; alt=&quot;step32&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-12-input-output/step32b.png&quot; alt=&quot;step32&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-12-input-output/step32.png&quot; alt=&quot;step32&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The Serial Block is a great way to help debug your code. :)&lt;/p&gt;
 
@@ -929,35 +925,37 @@ void printLights() {
 &lt;p&gt;Before you begin be sure you have the &lt;a href=&quot;https://www.arduino.cc/en/Main/Software&quot;&gt;arduino ide&lt;/a&gt; installed.  You might want to review the &lt;a href=&quot;https://docs.google.com/presentation/d/1NVXJuoGbR-pNWjyHMJpdIDgtxiLFyZJTAl8aILhjp4g/edit?usp=sharing&quot;&gt;class presentation&lt;/a&gt;
 if you found this on the internet.&lt;/p&gt;
 
-&lt;h3 id=&quot;step-1-take-the-led-and-put-the-long-side-positive-into-5-e-and-short-side-negative-into-3-e-of-the-breadboard&quot;&gt;Step 1) Take the led and put the long side (positive) into (5, e) and short side (negative) into (3, e) of the breadboard.&lt;/h3&gt;
+&lt;p&gt;Step 1) Take the led and put the long side (positive) into (5, e) and short side (negative) into (3, e) of the breadboard.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/arduino/2017-09-11-arduino-passive-motion-sensor/step1.jpg&quot; alt=&quot;step1&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;step-2-take-the-resistor-and-plug-one-end-into-5-d-and-the-other-end-into-8-b&quot;&gt;Step 2) Take the resistor and plug one end into (5, d) and the other end into (8, b).&lt;/h3&gt;
+&lt;p&gt;Step 2) Take the resistor and plug one end into (5, d) and the other end into (8, b).&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/arduino/2017-09-11-arduino-passive-motion-sensor/step2.jpg&quot; alt=&quot;step2&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;step-3-plug-one-end-of-the-male-to-male-jumper-wire-into-2-a-and-take-the-other-jumper-wire-into-8-a&quot;&gt;Step 3) Plug one end of the male to male jumper wire into (2, a) and take the other jumper wire into (8, a).&lt;/h3&gt;
+&lt;p&gt;Step 3) Plug one end of the male to male jumper wire into (2, a).  Take the other wire and plug it into (8, a).&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/arduino/2017-09-11-arduino-passive-motion-sensor/step3.jpg&quot; alt=&quot;step3&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;step-4-take-the-jumper-wire-plugged-into-8-a-into-arduino-pin-7&quot;&gt;Step 4) Take the jumper wire plugged into (8, a) into arduino pin 7.&lt;/h3&gt;
+&lt;p&gt;Step 4) Take the jumper wire plugged into (8, a) into arduino pin 7.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/arduino/2017-09-11-arduino-passive-motion-sensor/step4.jpg&quot; alt=&quot;step4&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;step-5-take-the-other-jumper-wire-and-plug-it-into-ground-gnd-in-the-arduino&quot;&gt;Step 5) Take the other jumper wire and plug it into ground (gnd) in the arduino.&lt;/h3&gt;
+&lt;p&gt;Step 5) Take the other jumper wire and plug it into ground (gnd) in the arduino.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/arduino/2017-09-11-arduino-passive-motion-sensor/step5.jpg&quot; alt=&quot;step5&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;step-6-take-a-female-to-male-wire-and-plug-the-s-into-pin-4-of-the-arduino&quot;&gt;Step 6) Take a female to male wire and plug the s into pin 4 of the arduino&lt;/h3&gt;
+&lt;p&gt;Step 6) Take a female to male wire and plug one end into pin s of the sensor and the other end into pin 4 of the arduino&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/arduino/2017-09-11-arduino-passive-motion-sensor/step6.jpg&quot; alt=&quot;step6&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;step-7-take-a-female-to-male-wire-and-plug-the---ground-into-the-ground-gnd-of-the-arduino&quot;&gt;Step 7) Take a female to male wire and plug the - (ground) into the ground (gnd) of the arduino&lt;/h3&gt;
+&lt;p&gt;Step 7) Take a female to male wire and plug one end into pin ground (gnd) of the sensor and the other end into pin 
+ground of the arduino&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/arduino/2017-09-11-arduino-passive-motion-sensor/step7.jpg&quot; alt=&quot;step7&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;step-8-take-a-female-to-male-wire-and-plug-the--volts-into-33-volt-of-the-arduino&quot;&gt;Step 8) Take a female to male wire and plug the + (volts) into 3.3 volt of the arduino&lt;/h3&gt;
+&lt;p&gt;Step 8) Take a female to male wire and plug one end into pin + of the sensor and the other end into pin 
+        3.3 volts of the arduino&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/arduino/2017-09-11-arduino-passive-motion-sensor/step8.jpg&quot; alt=&quot;step8&quot; /&gt;&lt;/p&gt;
 
@@ -965,11 +963,11 @@ if you found this on the internet.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/arduino/2017-09-11-arduino-passive-motion-sensor/looklike.jpg&quot; alt=&quot;lookslike&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;step-9-plug-in-the-arduino-into-the-computer&quot;&gt;Step 9) Plug in the arduino into the computer&lt;/h3&gt;
+&lt;p&gt;Step 9) Plug in the arduino into the computer&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/arduino/2017-09-11-arduino-passive-motion-sensor/looklike.jpg&quot; alt=&quot;lookslike&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;step-10-open-the-arduino-ide-and-paste-the-code-in-below&quot;&gt;Step 10) Open the arduino ide and paste the code in below.&lt;/h3&gt;
+&lt;p&gt;Step 10) Open the arduino ide and paste the code in below.&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
 int led = 7;
@@ -998,15 +996,15 @@ void loop() {
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;h3 id=&quot;step-11-select-the-port-in-the-arduino-ide-that-your-board-is-hooked-up-to&quot;&gt;Step 11) Select the port in the arduino ide that your board is hooked up to&lt;/h3&gt;
+&lt;p&gt;Step 11) Select the port in the arduino ide that your board is hooked up to&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/arduino/2017-09-11-arduino-passive-motion-sensor/step11.png&quot; alt=&quot;step11&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;step-12-open-the-serial-monitor&quot;&gt;Step 12) Open the serial monitor&lt;/h3&gt;
+&lt;p&gt;Step 12) Open the serial monitor&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/arduino/2017-09-11-arduino-passive-motion-sensor/step13.png&quot; alt=&quot;step13&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;step-13-upload-the-arduino-sketch&quot;&gt;Step 13) Upload the arduino sketch&lt;/h3&gt;
+&lt;p&gt;Step 13) Upload the arduino sketch&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/arduino/2017-09-11-arduino-passive-motion-sensor/step12.png&quot; alt=&quot;step12&quot; /&gt;&lt;/p&gt;
 
@@ -1052,7 +1050,7 @@ delay in the program.&lt;/p&gt;
 &lt;p&gt;Before you begin be sure you have the &lt;a href=&quot;https://www.arduino.cc/en/Main/Software&quot;&gt;arduino ide&lt;/a&gt; installed.  You might want to review the &lt;a href=&quot;https://docs.google.com/presentation/d/1MoRwCLQkwIvOVirSYqP_qpZK4cVCWzgDfzAIcsbjcqk/edit?usp=sharing&quot;&gt;class presentation&lt;/a&gt;
 if you found this on the internet.&lt;/p&gt;
 
-&lt;p&gt;1) Adjust the arduino setting / preferences to include line numbers and click Ok.&lt;/p&gt;
+&lt;p&gt;1) Go to Arduino -&amp;gt; (Preferences / Settings) and click “Display line numbers” checkbox.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/arduino/2017-09-10-arduino-input-output/step1a.png&quot; alt=&quot;step1a&quot; /&gt;&lt;/p&gt;
 
@@ -1076,11 +1074,11 @@ if you found this on the internet.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/arduino/2017-09-10-arduino-input-output/step5.png&quot; alt=&quot;step5&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;6) Now click the upload button on the arudino ide.  It looks like a play button.&lt;/p&gt;
+&lt;p&gt;6) Now click the upload button on the arduino ide.  It looks like a play button.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/arduino/2017-09-10-arduino-input-output/step6.png&quot; alt=&quot;step6&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;7) The arduino should now blink every second.  Congrats!! You uploaded your first arduino program.  Remember that pin 13, is the built in led.  The red circle is where pin 13 is.&lt;/p&gt;
+&lt;p&gt;7) The arduino should now blink every second.  Congrats!! You uploaded your first arduino program.  Remember that pin 13, is the built in led.  The red circle is the led attached to pin 13.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/arduino/2017-09-10-arduino-input-output/step7a.jpg&quot; alt=&quot;step7a&quot; /&gt;&lt;/p&gt;
 
@@ -1094,7 +1092,7 @@ if you found this on the internet.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/arduino/2017-09-10-arduino-input-output/step9.jpg&quot; alt=&quot;step9&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;10) Take one jumper wire and plug it into pin (1, j) and the other jumper wire and plug it into (5,j).&lt;/p&gt;
+&lt;p&gt;10) Take one jumper wire and plug it into pin (1, j) of the breadboard. Take the other jumper wire and plug it into (5,j).&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/arduino/2017-09-10-arduino-input-output/step10.jpg&quot; alt=&quot;step10&quot; /&gt;&lt;/p&gt;
 
@@ -1134,7 +1132,7 @@ void loop() {
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;14) Now upload the arduino sketch like you did in step 6.  You should see the led blink.&lt;/p&gt;
+&lt;p&gt;14) Upload the code like you did in step 6.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/arduino/2017-09-10-arduino-input-output/step14a.jpg&quot; alt=&quot;step14a&quot; /&gt;&lt;/p&gt;
 

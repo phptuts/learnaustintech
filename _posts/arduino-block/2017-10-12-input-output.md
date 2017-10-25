@@ -31,9 +31,9 @@ sort_order: 1
 
 1) Install the [Arduino IDE](https://www.arduino.cc/en/Main/Software) for your Operating System.
 
-2) Install [python 2.7](https://www.python.org/downloads/release/python-2713/) for your Operating System.
+2) Install [node js](https://nodejs.org/en/download/) for your Operating System.
 
-3) Open a command prompt / terminal and type in python --version.  Make sure you see something like this.
+3) Open a command prompt / terminal and type in node --version.  Make sure you see something like this.
 
 ![step3](/images/arduino-block/2017-10-12-input-output/step3.png)
 
@@ -47,15 +47,15 @@ cd ~/Desktop/ArduinoBlocks/
 
 6) In the command prompt type:
 ``` 
-python arduino_web_server.py 
+sh start.sh
 ``` 
 ![step6](/images/arduino-block/2017-10-12-input-output/step6.png)
 
-7) Now open your [Block Environment](http://127.0.0.1:8080/), http://127.0.0.1:8080/.  Click on Discard if you see blocks on the screen.
+7) Now open your [Block Environment](http://127.0.0.1:3000/), http://127.0.0.1:3000/.  Click on discard if you see blocks on the screen.
 
 ![step7](/images/arduino-block/2017-10-12-input-output/step7.png)
 
-So you are going to learn how to control the arduino.  You will do this by dragging blocks onto the screen.  Each block represents something that the arduino will do.  The first thing we are going to learn how to do is send electricity to the pin.  The blocks you drag onto the screen will be executed for ever.  Meaning that program will repeat itself until the arduino is unplugged.
+So you are going to learn how to control the arduino.  You will do this by dragging blocks onto the screen.  Each block represents something that the arduino will do.  The first thing we are going to learn how to do is send electricity to the pin. 
 
 8) Click on Input/Output and drag the DigitalWrite block.  Change the pin to 13 and make sure Stat is HIGH.  High means that the electricity will be sent through that pin.
 
@@ -179,15 +179,14 @@ Congrats!! You have just written your first complete arduino program.  Go ahead 
 
 ![step29](/images/arduino-block/2017-10-12-input-output/step30.png)
 
-31) Open the arduino ide and go to tools -> ports and select the usb port the arduino is on.
+31) Click on logging / debgging to make the serial monitor appear.
 
 ![step31](/images/arduino-block/2017-10-12-input-output/step31.png)
 
-32) Go to tools -> serial monitor.  Notice that this output is 1.  If you press the button it will start to output 0.  So when the button is pressed the block reads 0.  Once you are done with the step be sure and close the serial monitor.
+32) Push the button and notice that when u push the button the output is 0 and that when u let go of the button it is 1.
 
-![step32](/images/arduino-block/2017-10-12-input-output/step32a.png)
+![step32](/images/arduino-block/2017-10-12-input-output/step32.png)
 
-![step32](/images/arduino-block/2017-10-12-input-output/step32b.png)
 
 The Serial Block is a great way to help debug your code. :)
 

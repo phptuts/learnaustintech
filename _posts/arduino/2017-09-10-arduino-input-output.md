@@ -31,7 +31,7 @@ sort_order: 1
 Before you begin be sure you have the [arduino ide](https://www.arduino.cc/en/Main/Software) installed.  You might want to review the [class presentation](https://docs.google.com/presentation/d/1MoRwCLQkwIvOVirSYqP_qpZK4cVCWzgDfzAIcsbjcqk/edit?usp=sharing)
 if you found this on the internet.
 
-1) Adjust the arduino setting / preferences to include line numbers and click Ok.
+1) Go to Arduino -> (Preferences / Settings) and click "Display line numbers" checkbox.
 
 ![step1a](/images/arduino/2017-09-10-arduino-input-output/step1a.png)
 
@@ -56,11 +56,11 @@ if you found this on the internet.
 
 ![step5](/images/arduino/2017-09-10-arduino-input-output/step5.png)
 
-6) Now click the upload button on the arudino ide.  It looks like a play button.
+6) Now click the upload button on the arduino ide.  It looks like a play button.
 
 ![step6](/images/arduino/2017-09-10-arduino-input-output/step6.png)
 
-7) The arduino should now blink every second.  Congrats!! You uploaded your first arduino program.  Remember that pin 13, is the built in led.  The red circle is where pin 13 is.
+7) The arduino should now blink every second.  Congrats!! You uploaded your first arduino program.  Remember that pin 13, is the built in led.  The red circle is the led attached to pin 13.
 
 ![step7a](/images/arduino/2017-09-10-arduino-input-output/step7a.jpg)
 
@@ -74,7 +74,7 @@ if you found this on the internet.
 
 ![step9](/images/arduino/2017-09-10-arduino-input-output/step9.jpg)
 
-10) Take one jumper wire and plug it into pin (1, j) and the other jumper wire and plug it into (5,j).
+10) Take one jumper wire and plug it into pin (1, j) of the breadboard. Take the other jumper wire and plug it into (5,j).
 
 ![step10](/images/arduino/2017-09-10-arduino-input-output/step10.jpg)
 
@@ -114,7 +114,7 @@ void loop() {
 
 ```
 
-14) Now upload the arduino sketch like you did in step 6.  You should see the led blink.
+14) Upload the code like you did in step 6.
 
 ![step14a](/images/arduino/2017-09-10-arduino-input-output/step14a.jpg)
 
