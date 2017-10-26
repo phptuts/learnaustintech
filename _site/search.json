@@ -2,6 +2,22 @@
 
   
     {
+      "title"			: "Arduino LCD Screen Workbook",
+      "link"			: "http://localhost:4000/arduino/arduino-lcd/",
+      "excerpt"		: "Arduino LCD Screen Workbook Work Book."
+    }
+  
+
+  
+    ,{
+      "title"			: "Arduino LCD Screen Workbook With Blocks",
+      "link"			: "http://localhost:4000/arduino/arduino-lcd/",
+      "excerpt"		: "Arduino LCD Screen Workbook Work Book."
+    }
+  
+
+  
+    ,{
       "title"			: "Passive Motion Sensor (PIR) With Blocks",
       "link"			: "http://localhost:4000/arduino_block/passive-motion-sensor/",
       "excerpt"		: "Arduino Passive Motion Sensor (PIR)."
