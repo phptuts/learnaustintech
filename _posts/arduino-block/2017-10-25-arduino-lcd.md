@@ -3,7 +3,7 @@ layout: post
 title: Arduino LCD Screen Workbook With Blocks
 excerpt: "Arduino LCD Screen Workbook Work Book."
 modified: 2017-10-25
-categories: arduino
+categories: arduino_block
 comments: true
 share: true
 sort_order: 3
