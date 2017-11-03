@@ -17,8 +17,10 @@ sort_order: 3
 ## Bill of Materials 
 
 - 1 x Arduino Uno
-- 4 x jumper wires (male to female)
+- 7 x jumper wires (male to female)
 - 1 x usb type b cable
+- 1 x passive motion sensor for the class
+- 1 x lcd screen that uses an I2C Bus
 
 ## Steps
 

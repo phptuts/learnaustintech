@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-11-03T15:14:42-05:00</updated><id>http://localhost:4000/</id><title type="html">Get started learning technology in Austin. :)</title><subtitle>This is .</subtitle><entry><title type="html">Arduino LCD Screen Workbook</title><link href="http://localhost:4000/arduino/arduino-lcd/" rel="alternate" type="text/html" title="Arduino LCD Screen Workbook" /><published>2017-10-25T00:00:00-05:00</published><updated>2017-10-25T00:00:00-05:00</updated><id>http://localhost:4000/arduino/arduino-lcd</id><content type="html" xml:base="http://localhost:4000/arduino/arduino-lcd/">&lt;h2 id=&quot;project-kit&quot;&gt;Project Kit&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-11-03T15:21:09-05:00</updated><id>http://localhost:4000/</id><title type="html">Get started learning technology in Austin. :)</title><subtitle>This is .</subtitle><entry><title type="html">Arduino LCD Screen Workbook</title><link href="http://localhost:4000/arduino/arduino-lcd/" rel="alternate" type="text/html" title="Arduino LCD Screen Workbook" /><published>2017-10-25T00:00:00-05:00</published><updated>2017-10-25T00:00:00-05:00</updated><id>http://localhost:4000/arduino/arduino-lcd</id><content type="html" xml:base="http://localhost:4000/arduino/arduino-lcd/">&lt;h2 id=&quot;project-kit&quot;&gt;Project Kit&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/arduino/2017-10-25-arduino-lcd/kit.jpg&quot; alt=&quot;Project Kit Coming Soon&quot; /&gt;&lt;/p&gt;
 
@@ -6,8 +6,10 @@
 
 &lt;ul&gt;
   &lt;li&gt;1 x Arduino Uno&lt;/li&gt;
-  &lt;li&gt;4 x jumper wires (male to female)&lt;/li&gt;
+  &lt;li&gt;7 x jumper wires (male to female)&lt;/li&gt;
   &lt;li&gt;1 x usb type b cable&lt;/li&gt;
+  &lt;li&gt;1 x passive motion sensor for the class&lt;/li&gt;
+  &lt;li&gt;1 x lcd screen that uses an I2C Bus&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;steps&quot;&gt;Steps&lt;/h2&gt;
@@ -203,8 +205,10 @@ void loop() {
 
 &lt;ul&gt;
   &lt;li&gt;1 x Arduino Uno&lt;/li&gt;
-  &lt;li&gt;4 x jumper wires (male to female)&lt;/li&gt;
+  &lt;li&gt;7 x jumper wires (male to female)&lt;/li&gt;
   &lt;li&gt;1 x usb type b cable&lt;/li&gt;
+  &lt;li&gt;1 x passive motion sensor for the class&lt;/li&gt;
+  &lt;li&gt;1 x lcd screen that uses an I2C Bus&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;steps&quot;&gt;Steps&lt;/h2&gt;
