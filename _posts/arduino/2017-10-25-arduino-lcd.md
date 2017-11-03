@@ -93,11 +93,11 @@ void loop() {
 
 Now we are going to learn how to print something on screen.  So in the lcd is a grid system that is 0 based.  Meaning the number start a 0.  The lcd that we are using for this class has 4 rows and 20 columns.  A column is on the x axis, meaning it is used to specify something to the left or to the right.  A row is on the y axis, meaning it is used to specify something up or down.  This is not like a normal numbering system because as you go down the y axis numbers go up.
  
-![lcd grid](/images/arduino/2017-10-25-arduino-lcd/lcd-grid-numbered.png)
+![lcd grid](/images/arduino-block/2017-10-25-arduino-lcd/lcd-grid-numbered.png)
 
 (Challenge) Can you tell me the column and row position of the colored blocks.
 
-![lcd marked grid](/images/arduino/2017-10-25-arduino-lcd/lcd-grid-marked.png)
+![lcd marked grid](/images/arduino-block/2017-10-25-arduino-lcd/lcd-grid-marked.png)
 
  You can set the position to print using lcd.setCursor(column, row).  You use lcd.print("say something"") to print stuff onto the screen.
  
