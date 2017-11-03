@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-11-02T23:06:52-05:00</updated><id>http://localhost:4000/</id><title type="html">Get started learning technology in Austin. :)</title><subtitle>This is .</subtitle><entry><title type="html">Arduino LCD Screen Workbook</title><link href="http://localhost:4000/arduino/arduino-lcd/" rel="alternate" type="text/html" title="Arduino LCD Screen Workbook" /><published>2017-10-25T00:00:00-05:00</published><updated>2017-10-25T00:00:00-05:00</updated><id>http://localhost:4000/arduino/arduino-lcd</id><content type="html" xml:base="http://localhost:4000/arduino/arduino-lcd/">&lt;h2 id=&quot;project-kit&quot;&gt;Project Kit&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-11-03T15:14:42-05:00</updated><id>http://localhost:4000/</id><title type="html">Get started learning technology in Austin. :)</title><subtitle>This is .</subtitle><entry><title type="html">Arduino LCD Screen Workbook</title><link href="http://localhost:4000/arduino/arduino-lcd/" rel="alternate" type="text/html" title="Arduino LCD Screen Workbook" /><published>2017-10-25T00:00:00-05:00</published><updated>2017-10-25T00:00:00-05:00</updated><id>http://localhost:4000/arduino/arduino-lcd</id><content type="html" xml:base="http://localhost:4000/arduino/arduino-lcd/">&lt;h2 id=&quot;project-kit&quot;&gt;Project Kit&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/arduino/2017-10-25-arduino-lcd/kit.jpg&quot; alt=&quot;Project Kit Coming Soon&quot; /&gt;&lt;/p&gt;
 
@@ -360,7 +360,100 @@ make the program pause for 5 seconds.&lt;/p&gt;
 &lt;img src=&quot;/images/arduino-block/2017-10-25-arduino-lcd/step24b.jpg&quot; alt=&quot;step24&quot; /&gt;
 &lt;img src=&quot;/images/arduino-block/2017-10-25-arduino-lcd/step24c.jpg&quot; alt=&quot;step24&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;how-to-make-a-peiece&quot;&gt;How to make a peiece&lt;/h3&gt;</content><author><name></name></author><summary type="html">Arduino LCD Screen Workbook Work Book.</summary></entry><entry><title type="html">Passive Motion Sensor (PIR) With Blocks</title><link href="http://localhost:4000/arduino_block/passive-motion-sensor/" rel="alternate" type="text/html" title="Passive Motion Sensor (PIR) With Blocks" /><published>2017-10-14T00:00:00-05:00</published><updated>2017-10-14T00:00:00-05:00</updated><id>http://localhost:4000/arduino_block/passive-motion-sensor</id><content type="html" xml:base="http://localhost:4000/arduino_block/passive-motion-sensor/">&lt;h2 id=&quot;project-kit-for-the-workbook&quot;&gt;Project Kit For the Workbook&lt;/h2&gt;
+&lt;h4 id=&quot;count-loop-block--for-loop-block&quot;&gt;Count Loop Block / For Loop Block&lt;/h4&gt;
+
+&lt;p&gt;So we going to learn about count loops also known as for loops.  A count loops has three parts:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Start Number: The starting number of the loop&lt;/li&gt;
+  &lt;li&gt;End Number: The ending number of the loop&lt;/li&gt;
+  &lt;li&gt;Step Number: The number to increase the starting number every time the blocks inside the loop is executed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Let’s see how this works with a simple demo:&lt;/p&gt;
+
+&lt;p&gt;25) Drag the count loop block onto the screen.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-25-arduino-lcd/step25a.png&quot; alt=&quot;step25&quot; /&gt;
+&lt;img src=&quot;/images/arduino-block/2017-10-25-arduino-lcd/step25b.png&quot; alt=&quot;step25&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;26) Drag the debug block inside the count loop block.  The Debug Block will pause the program and print the variables
+ to logout.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-25-arduino-lcd/step26a.png&quot; alt=&quot;step26&quot; /&gt;
+&lt;img src=&quot;/images/arduino-block/2017-10-25-arduino-lcd/step26b.png&quot; alt=&quot;step26&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;27) Now click the reset button and upload a blank sketch to the arduino.  This is clear out any old code in the arduino.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-25-arduino-lcd/step27.png&quot; alt=&quot;step27&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;28) Once it has successfully loaded, upload the code to the arduino.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-25-arduino-lcd/step28a.png&quot; alt=&quot;step28&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;29) Open the Logging \ Debugging window and notice the debug block is black and high lighted.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-25-arduino-lcd/step29a.png&quot; alt=&quot;step29&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;30) You can now see that the program has stopped and has printed value and name of the variable.  In our case the 
+name of the variable is i and the value is 1.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-25-arduino-lcd/step30.png&quot; alt=&quot;step30&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;31) Click the continue block and notice the value for i changed to 2.  Continue to click the continue block until i 
+equals 10.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-25-arduino-lcd/step31.png&quot; alt=&quot;step31&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(Challenge) Create a loop using the debug blocks that will start at 10 and go to 50.&lt;/p&gt;
+
+&lt;p&gt;(Challenge) Create a loop using the debug blocks that will start at 2 and go 20 but will only print out even numbers.&lt;/p&gt;
+
+&lt;h4 id=&quot;making-something-scroll-left-to-right&quot;&gt;Making something scroll left to right&lt;/h4&gt;
+
+&lt;p&gt;We want to scroll you rock on the screen.  So we are going to at position print at position (0,0) and stop at 
+position (11, 0).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-25-arduino-lcd/lcd-you-rock-start.png&quot; alt=&quot;lcd you rock start&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-25-arduino-lcd/lcd-you-rock-end.png&quot; alt=&quot;lcd you rock end&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(Challenge) See if you can print “You Rock!” starting at position (0,0).  See if you can do that as the without looking.&lt;/p&gt;
+
+&lt;p&gt;32) Drag the count block and connect it to the challenge block.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-25-arduino-lcd/step32.png&quot; alt=&quot;step32&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;33) Drag the right scroll block inside the loop.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-25-arduino-lcd/step33a.png&quot; alt=&quot;step33&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-25-arduino-lcd/step33b.png&quot; alt=&quot;step33&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;34) Drag the delay block inside the for loop.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-25-arduino-lcd/step34.png&quot; alt=&quot;step34&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;35) Upload the code the arduino and watch the words scroll on the screen.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-25-arduino-lcd/step35a.png&quot; alt=&quot;step35&quot; /&gt;
+&lt;img src=&quot;/images/arduino-block/2017-10-25-arduino-lcd/step35.gif&quot; alt=&quot;step35&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(Challenge) Try to copy and paste the count block and make it scroll back to the left.&lt;/p&gt;
+
+&lt;h2 id=&quot;challenge-projects&quot;&gt;Challenge Projects&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Play with with the blink block and make it blink move around the screen&lt;/li&gt;
+  &lt;li&gt;Connect the passive motion sensor and print the number of times passive motion sensor sensed something&lt;/li&gt;
+  &lt;li&gt;Have fun and do your own thing.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://playground.arduino.cc/Code/PIRsense&quot;&gt;PIR Sensor&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.arduino.cc/en/Reference/LiquidCrystal&quot;&gt;LCD Library&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Arduino LCD Screen Workbook Work Book.</summary></entry><entry><title type="html">Passive Motion Sensor (PIR) With Blocks</title><link href="http://localhost:4000/arduino_block/passive-motion-sensor/" rel="alternate" type="text/html" title="Passive Motion Sensor (PIR) With Blocks" /><published>2017-10-14T00:00:00-05:00</published><updated>2017-10-14T00:00:00-05:00</updated><id>http://localhost:4000/arduino_block/passive-motion-sensor</id><content type="html" xml:base="http://localhost:4000/arduino_block/passive-motion-sensor/">&lt;h2 id=&quot;project-kit-for-the-workbook&quot;&gt;Project Kit For the Workbook&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/arduino-block/2017-10-14-passive-motion-sensor/kit.jpg&quot; alt=&quot;kit&quot; /&gt;&lt;/p&gt;
 

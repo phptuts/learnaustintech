@@ -174,4 +174,93 @@ make the program pause for 5 seconds.
 ![step24](/images/arduino-block/2017-10-25-arduino-lcd/step24c.jpg)
 
 
-### How to make a peiece
+#### Count Loop Block / For Loop Block
+
+So we going to learn about count loops also known as for loops.  A count loops has three parts:
+- Start Number: The starting number of the loop
+- End Number: The ending number of the loop
+- Step Number: The number to increase the starting number every time the blocks inside the loop is executed.
+
+Let's see how this works with a simple demo:
+
+25) Drag the count loop block onto the screen.
+
+![step25](/images/arduino-block/2017-10-25-arduino-lcd/step25a.png)
+![step25](/images/arduino-block/2017-10-25-arduino-lcd/step25b.png)
+
+
+26) Drag the debug block inside the count loop block.  The Debug Block will pause the program and print the variables
+ to logout.
+
+![step26](/images/arduino-block/2017-10-25-arduino-lcd/step26a.png)
+![step26](/images/arduino-block/2017-10-25-arduino-lcd/step26b.png)
+
+27) Now click the reset button and upload a blank sketch to the arduino.  This is clear out any old code in the arduino.
+
+![step27](/images/arduino-block/2017-10-25-arduino-lcd/step27.png)
+
+28) Once it has successfully loaded, upload the code to the arduino.
+
+![step28](/images/arduino-block/2017-10-25-arduino-lcd/step28a.png)
+
+29) Open the Logging \ Debugging window and notice the debug block is black and high lighted.
+
+![step29](/images/arduino-block/2017-10-25-arduino-lcd/step29a.png)
+
+
+30) You can now see that the program has stopped and has printed value and name of the variable.  In our case the 
+name of the variable is i and the value is 1.
+
+![step30](/images/arduino-block/2017-10-25-arduino-lcd/step30.png)
+
+31) Click the continue block and notice the value for i changed to 2.  Continue to click the continue block until i 
+equals 10.
+
+![step31](/images/arduino-block/2017-10-25-arduino-lcd/step31.png)
+
+(Challenge) Create a loop using the debug blocks that will start at 10 and go to 50.
+
+(Challenge) Create a loop using the debug blocks that will start at 2 and go 20 but will only print out even numbers.
+
+#### Making something scroll left to right
+
+We want to scroll you rock on the screen.  So we are going to at position print at position (0,0) and stop at 
+position (11, 0).
+
+![lcd you rock start](/images/arduino-block/2017-10-25-arduino-lcd/lcd-you-rock-start.png)
+
+![lcd you rock end](/images/arduino-block/2017-10-25-arduino-lcd/lcd-you-rock-end.png)
+
+(Challenge) See if you can print "You Rock!" starting at position (0,0).  See if you can do that as the without looking.
+
+32) Drag the count block and connect it to the challenge block.
+
+![step32](/images/arduino-block/2017-10-25-arduino-lcd/step32.png)
+
+33) Drag the right scroll block inside the loop.
+
+![step33](/images/arduino-block/2017-10-25-arduino-lcd/step33a.png)
+
+![step33](/images/arduino-block/2017-10-25-arduino-lcd/step33b.png)
+
+34) Drag the delay block inside the for loop.
+
+![step34](/images/arduino-block/2017-10-25-arduino-lcd/step34.png)
+
+35) Upload the code the arduino and watch the words scroll on the screen.
+
+![step35](/images/arduino-block/2017-10-25-arduino-lcd/step35a.png)
+![step35](/images/arduino-block/2017-10-25-arduino-lcd/step35.gif)
+
+(Challenge) Try to copy and paste the count block and make it scroll back to the left.
+
+## Challenge Projects
+
+- Play with with the blink block and make it blink move around the screen
+- Connect the passive motion sensor and print the number of times passive motion sensor sensed something
+- Have fun and do your own thing.
+
+## Resources
+
+- [PIR Sensor](https://playground.arduino.cc/Code/PIRsense)
+- [LCD Library](https://www.arduino.cc/en/Reference/LiquidCrystal)
