@@ -9,9 +9,12 @@ share: true
 sort_order: 2
 ---
 
-## Project Kit
+## Schematic
 
 ![step1](/images/arduino/2017-09-11-arduino-passive-motion-sensor/PIR_Sensor_bb.png)
+
+## Project Kit
+
 ![step1](/images/arduino/2017-09-11-arduino-passive-motion-sensor/kit.jpg)
 
 
