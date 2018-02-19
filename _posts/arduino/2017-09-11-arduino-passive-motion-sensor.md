@@ -2,7 +2,7 @@
 layout: post
 title: Build An Arduino Motion Sensor With Led Work book
 excerpt: "Arduino Passive Motion Sensor (PIR) Work Book."
-modified: 2017-09-11
+modified: 2018-02-19
 categories: arduino
 comments: true
 share: true
@@ -11,6 +11,7 @@ sort_order: 2
 
 ## Project Kit
 
+![step1](/images/arduino/2017-09-11-arduino-passive-motion-sensor/PIR_Sensor_bb.png)
 ![step1](/images/arduino/2017-09-11-arduino-passive-motion-sensor/kit.jpg)
 
 
@@ -34,19 +35,19 @@ Step 1) Take the led and put the long side (positive) into (5, e) and short side
 
 ![step1](/images/arduino/2017-09-11-arduino-passive-motion-sensor/step1.jpg)
 
-Step 2) Take the resistor and plug one end into (5, d) and the other end into (8, b).
+Step 2) Take the resistor and plug one end into (5, d) and the other end into (8, a).
 
 ![step2](/images/arduino/2017-09-11-arduino-passive-motion-sensor/step2.jpg)
 
-Step 3) Plug one end of the male to male jumper wire into (2, a).  Take the other wire and plug it into (8, a).
+Step 3) Plug one end of the male to male jumper wire into (3, a).  Take the other wire and plug it into (8, b).
 
 ![step3](/images/arduino/2017-09-11-arduino-passive-motion-sensor/step3.jpg)
 
-Step 4) Take the jumper wire plugged into (8, a) into arduino pin 7.
+Step 4) Plug the other end of the jumper wire plugged into (8, b) into arduino pin 7.
 
 ![step4](/images/arduino/2017-09-11-arduino-passive-motion-sensor/step4.jpg)
 
-Step 5) Take the other jumper wire and plug it into ground (gnd) in the arduino.
+Step 5) Take the other end of the second jumper wire and plug it into ground (gnd) in the arduino.
 
 ![step5](/images/arduino/2017-09-11-arduino-passive-motion-sensor/step5.jpg)
 
