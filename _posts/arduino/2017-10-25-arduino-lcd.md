@@ -11,7 +11,7 @@ sort_order: 3
 
 ## Project Kit
 
-![Project Kit Coming Soon](/images/arduino/2017-10-25-arduino-lcd/kit.jpg)
+![Project Kit Coming Soon](/learnaustintech/images/arduino/2017-10-25-arduino-lcd/kit.jpg)
 
 
 ## Bill of Materials 
@@ -34,27 +34,27 @@ if you found this on the internet.
 - sda (Serial Data Line)
 - slc ( Serial Clock Line)
     
-![step1](/images/arduino/2017-10-25-arduino-lcd/step1.jpg)
+![step1](/learnaustintech/images/arduino/2017-10-25-arduino-lcd/step1.jpg)
 
 2) Take one of the wires and plug it into ground of the lcd screen and ground of the arduino.
 
-![step2](/images/arduino/2017-10-25-arduino-lcd/step2.jpg)
+![step2](/learnaustintech/images/arduino/2017-10-25-arduino-lcd/step2.jpg)
 
 3) Take one of the wires and plug it into vcc of the lcd screen and 5v of the arduino.
 
-![step3](/images/arduino/2017-10-25-arduino-lcd/step3.jpg)
+![step3](/learnaustintech/images/arduino/2017-10-25-arduino-lcd/step3.jpg)
 
 4) Take one of the wires and plug it into sda of the lcd screen and A4 of the arduino.
 
-![step4](/images/arduino/2017-10-25-arduino-lcd/step4.jpg)
+![step4](/learnaustintech/images/arduino/2017-10-25-arduino-lcd/step4.jpg)
 
 5) Take one of the wires and plug it into scl of the lcd screen and A5 of the arduino.
 
-![step5](/images/arduino/2017-10-25-arduino-lcd/step5.jpg)
+![step5](/learnaustintech/images/arduino/2017-10-25-arduino-lcd/step5.jpg)
 
 6) Take the arduino and plug it into the computer.
 
-![step6](/images/arduino/2017-10-25-arduino-lcd/step6.jpg)
+![step6](/learnaustintech/images/arduino/2017-10-25-arduino-lcd/step6.jpg)
 
 7) Open the arduino ide and paste in this code.
 
@@ -80,26 +80,26 @@ void loop() {
 
 8) Open the tools -> ports and select the arduino connected to the usb port.
 
-![step8](/images/arduino/2017-10-25-arduino-lcd/step8.png)
+![step8](/learnaustintech/images/arduino/2017-10-25-arduino-lcd/step8.png)
 
 9) Then click the upload button and upload your sketch to the arduino. (The upload button looks like an arrow.)
 
-![step9](/images/arduino/2017-10-25-arduino-lcd/step9.png)
+![step9](/learnaustintech/images/arduino/2017-10-25-arduino-lcd/step9.png)
 
 
 10) Now the backlight should go on and off every 1 second.  If you want to see the text you will have to keep the back light on.
 
-![step9](/images/arduino/2017-10-25-arduino-lcd/step10a.jpg)
+![step9](/learnaustintech/images/arduino/2017-10-25-arduino-lcd/step10a.jpg)
 
-![step9](/images/arduino/2017-10-25-arduino-lcd/step10b.jpg)
+![step9](/learnaustintech/images/arduino/2017-10-25-arduino-lcd/step10b.jpg)
 
 Now we are going to learn how to print something on screen.  So in the lcd is a grid system that is 0 based.  Meaning the number start a 0.  The lcd that we are using for this class has 4 rows and 20 columns.  A column is on the x axis, meaning it is used to specify something to the left or to the right.  A row is on the y axis, meaning it is used to specify something up or down.  This is not like a normal numbering system because as you go down the y axis numbers go up.
  
-![lcd grid](/images/arduino-block/2017-10-25-arduino-lcd/lcd-grid-numbered.png)
+![lcd grid](/learnaustintech/images/arduino-block/2017-10-25-arduino-lcd/lcd-grid-numbered.png)
 
 (Challenge) Can you tell me the column and row position of the colored blocks.
 
-![lcd marked grid](/images/arduino-block/2017-10-25-arduino-lcd/lcd-grid-marked.png)
+![lcd marked grid](/learnaustintech/images/arduino-block/2017-10-25-arduino-lcd/lcd-grid-marked.png)
 
  You can set the position to print using lcd.setCursor(column, row).  You use lcd.print("say something"") to print stuff onto the screen.
  
@@ -131,26 +131,26 @@ So now we are going to build off what we did in the last class.  We are going to
 
 13) Look at the back of the sensor and notice that it has S, +, -.  S is the sensing pin, + is the volts / positive pin, and - is the ground / negative pin.
 
-![step13](/images/arduino/2017-10-25-arduino-lcd/step13.jpg)
+![step13](/learnaustintech/images/arduino/2017-10-25-arduino-lcd/step13.jpg)
 
 14) Take a male to female jumper wire and plug end into the S pin of the sensor and the other end into pin 2 of the arduino.
 
-![step14](/images/arduino/2017-10-25-arduino-lcd/step14a.jpg)
+![step14](/learnaustintech/images/arduino/2017-10-25-arduino-lcd/step14a.jpg)
 
-![step14](/images/arduino/2017-10-25-arduino-lcd/step14b.jpg)
+![step14](/learnaustintech/images/arduino/2017-10-25-arduino-lcd/step14b.jpg)
 
 
 15) Take a male to female jumper wire and plug end into the + pin of the sensor and the other end into pin 3.3 volts of the arduino.
 
-![step15](/images/arduino/2017-10-25-arduino-lcd/step15a.jpg)
+![step15](/learnaustintech/images/arduino/2017-10-25-arduino-lcd/step15a.jpg)
 
-![step15](/images/arduino/2017-10-25-arduino-lcd/step15b.jpg)
+![step15](/learnaustintech/images/arduino/2017-10-25-arduino-lcd/step15b.jpg)
 
 16) Take a male to female jumper wire and plug end into the - pin of the sensor and the other end into pin ground / - of the arduino.
 
-![step15](/images/arduino/2017-10-25-arduino-lcd/step16a.jpg)
+![step15](/learnaustintech/images/arduino/2017-10-25-arduino-lcd/step16a.jpg)
 
-![step15](/images/arduino/2017-10-25-arduino-lcd/step16b.jpg)
+![step15](/learnaustintech/images/arduino/2017-10-25-arduino-lcd/step16b.jpg)
 
 17) Now we are going to write some code.  Copy the code onto the screen.  What this will do is increase the number on the screen by 1 every second.  
 

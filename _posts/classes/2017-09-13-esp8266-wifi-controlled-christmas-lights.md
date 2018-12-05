@@ -11,7 +11,7 @@ sort_order: 1
 
 ## Project Kit 
 
-![kit1](/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/kit1.jpg)
+![kit1](/learnaustintech/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/kit1.jpg)
 
 ## Bill of Materials 
 
@@ -28,80 +28,80 @@ sort_order: 1
 
 ### Step 1) Put the ESP8266 Chip in the breadboard.
 
-![step1a](/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step1a.jpg)
+![step1a](/learnaustintech/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step1a.jpg)
 
-![step1b](/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step1b.jpg)
+![step1b](/learnaustintech/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step1b.jpg)
 
 ### Step 2) Insert the DC Power Jack Adapter into the power cord.
 
-![step2](/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step2.jpg)
+![step2](/learnaustintech/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step2.jpg)
 
 ### Step 3) Take male to male jumper wire and put one side into the positive end of the power adapter and the other end the red wire of led light strip.  Screw the wire down on the power adapter side.
 
-![step3a](/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step3a.jpg)
+![step3a](/learnaustintech/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step3a.jpg)
 
-![step3b](/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step3b.jpg)
+![step3b](/learnaustintech/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step3b.jpg)
 
-![step3c](/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step3c.jpg)
+![step3c](/learnaustintech/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step3c.jpg)
 
-![step3c](/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step3d.jpg)
+![step3c](/learnaustintech/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step3d.jpg)
 
 ### Step 4) Hook in the male to male wire to ground of the power adapter.
 
-![step4a](/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step4a.jpg)
+![step4a](/learnaustintech/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step4a.jpg)
 
-![step4b](/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step4b.jpg)
+![step4b](/learnaustintech/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step4b.jpg)
 
 ### Step 5) Hook the other end of the male to male wire into the breadboard (28, d).
 
-![step5](/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step5.jpg)
+![step5](/learnaustintech/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step5.jpg)
 
 ### Step 6) Take the other male to male jumper wire put into the breadboard (28, c) and ground (gnd) on the ESP 8266 Chip.  For me the that is (22, i).  But you should be able to (gnd) port on the board.
 
-![step6](/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step6.jpg)
+![step6](/learnaustintech/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step6.jpg)
 
 ### Step 7) Take the male to female jumper wire and hook it into the middle wire of the led light strip.
 
-![step7](/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step7.jpg)
+![step7](/learnaustintech/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step7.jpg)
 
 ### Step 8) Take the other end of the male to female wire and put that into D6 of the ESP8266. 
 
-![step8](/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step8.jpg)
+![step8](/learnaustintech/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step8.jpg)
 
 ### Step 9) Take the other end of the male to female wire and put it into ground (white) wire of the led light strip.
 
-![step9](/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step9.jpg)
+![step9](/learnaustintech/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step9.jpg)
 
 ### Step 10) Take the other end of that wire and place it in (28, b) of the breadboard.  (Notice that the esp8266 and led stripe share the same ground).
 
 
-![step10](/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step10.jpg)
+![step10](/learnaustintech/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step10.jpg)
 
 ## Code Setup
 
 ### Step 1) Open the arduino IDE and go to setting / preferences.
 
-![step1-code](/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step1-code.png)
+![step1-code](/learnaustintech/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step1-code.png)
 
 ### Step 2) Add this http://arduino.esp8266.com/stable/package_esp8266com_index.json to the board manager in the setting.
 
-![step2-code](/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step2-code.png)
+![step2-code](/learnaustintech/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step2-code.png)
 
 ### Step 3) Go to Tools -> Boards -> Board Manager and search for esp8266.  Then install the latest esp8266 board.
 
-![step3-code](/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step3-code.png)
+![step3-code](/learnaustintech/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step3-code.png)
 
 ### Step 4) Install the latest version esp8266 library.
 
-![step4-code](/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step4-code.png)
+![step4-code](/learnaustintech/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step4-code.png)
 
 ### Step 5) Install the [ada fruit neo pixel library](https://github.com/adafruit/Adafruit_NeoPixel).  Download the zip file. Then go to tools -> include library -> add zip and that zip file.  
 
-![step5-code](/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step5-code.png)
+![step5-code](/learnaustintech/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step5-code.png)
 
 ### Step 6) Create a new sketch in your arduino ide.
 
-![step5-code](/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step6-code.png)
+![step5-code](/learnaustintech/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step6-code.png)
 
 ### Step 7) Paste this code into your arduino ide.  If you have kit 3 adjust NUMPIXELS to 60.
 
@@ -344,39 +344,39 @@ void printLights() {
 
 ### Step 9) Create a new workspace in your cloud 9 dashboard.  At the time of this writing it's in the top right corner of the page.
 
-![step9-code](/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step9-code.png)
+![step9-code](/learnaustintech/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step9-code.png)
 
 ### Step 10) Next fill in the name of the work space and put in this in the git clone project url.  (https://github.com/phptuts/arduinochristmaslights.git)  Then select the node template.  Then click create workspace.
 
-![step10-code](/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step10-code.png)
+![step10-code](/learnaustintech/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step10-code.png)
 
 ### Step 11) Then click on app.js and click run on cloud 9 interface.  This will run start the server.
  
-![step11-code](/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step11-code.png)
+![step11-code](/learnaustintech/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step11-code.png)
 
 ### Step 12) Then copy the url in the console.  In my case its "https://arduino-christmas-lighting-nglaser.c9users.io".
 
-![step12-code](/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step12-code.png)
+![step12-code](/learnaustintech/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step12-code.png)
 
 ### Step 13) Change the host variable to use the host you url copied from the cloud 9 terminal.  Also change the wifi password and ssid variables. The ssid is the name of your wifi network.
 
-![step13-code](/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step13-code.png)
+![step13-code](/learnaustintech/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step13-code.png)
 
 ### Step 14) Hook the micro usb cord into the esp8266 chip.  Then select the port that it is on.
 
-![step14-code](/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step14-code.png)
+![step14-code](/learnaustintech/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step14-code.png)
 
 ### Step 15) Select the esp8266 board.  In our case it's ESP-12 E model.
 
-![step15-code](/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step15-code.png)
+![step15-code](/learnaustintech/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step15-code.png)
 
 ### Step 16) Upload the sketch to the esp8266 chip.
 
-![step16-code](/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step16-code.png)
+![step16-code](/learnaustintech/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step16-code.png)
 
 ### Step 17) Go to website you copied into the arduino ide and play around with the user interface.  You can do default patterns or use the pipe system to create your own.  If u are using kit one select 30 leds for the default pattern.  If you are using kit 3 use 60 leds.
 
-![step16-code](/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step17-code.png)
+![step16-code](/learnaustintech/images/2017-09-13-esp8266-wifi-controlled-christmas-lights/step17-code.png)
 
 
 ### Step 18) Hook the tree and have fun. :) You can see the demo here.

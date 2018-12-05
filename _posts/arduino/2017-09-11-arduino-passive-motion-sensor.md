@@ -11,11 +11,11 @@ sort_order: 2
 
 ## Schematic
 
-![step1](/images/arduino/2017-09-11-arduino-passive-motion-sensor/PIR_Sensor_bb.png)
+![step1](/learnaustintech/images/arduino/2017-09-11-arduino-passive-motion-sensor/PIR_Sensor_bb.png)
 
 ## Project Kit
 
-![step1](/images/arduino/2017-09-11-arduino-passive-motion-sensor/kit.jpg)
+![step1](/learnaustintech/images/arduino/2017-09-11-arduino-passive-motion-sensor/kit.jpg)
 
 
 ## Bill of Materials 
@@ -36,45 +36,45 @@ if you found this on the internet.
 
 Step 1) Take the led and put the long side (positive) into (5, e) and short side (negative) into (3, e) of the breadboard.
 
-![step1](/images/arduino/2017-09-11-arduino-passive-motion-sensor/step1.jpg)
+![step1](/learnaustintech/images/arduino/2017-09-11-arduino-passive-motion-sensor/step1.jpg)
 
 Step 2) Take the resistor and plug one end into (5, d) and the other end into (8, a).
 
-![step2](/images/arduino/2017-09-11-arduino-passive-motion-sensor/step2.jpg)
+![step2](/learnaustintech/images/arduino/2017-09-11-arduino-passive-motion-sensor/step2.jpg)
 
 Step 3) Plug one end of the male to male jumper wire into (3, a).  Take the other wire and plug it into (8, b).
 
-![step3](/images/arduino/2017-09-11-arduino-passive-motion-sensor/step3.jpg)
+![step3](/learnaustintech/images/arduino/2017-09-11-arduino-passive-motion-sensor/step3.jpg)
 
 Step 4) Plug the other end of the jumper wire plugged into (8, b) into arduino pin 7.
 
-![step4](/images/arduino/2017-09-11-arduino-passive-motion-sensor/step4.jpg)
+![step4](/learnaustintech/images/arduino/2017-09-11-arduino-passive-motion-sensor/step4.jpg)
 
 Step 5) Take the other end of the second jumper wire and plug it into ground (gnd) in the arduino.
 
-![step5](/images/arduino/2017-09-11-arduino-passive-motion-sensor/step5.jpg)
+![step5](/learnaustintech/images/arduino/2017-09-11-arduino-passive-motion-sensor/step5.jpg)
 
 Step 6) Take a female to male wire and plug one end into pin s of the sensor and the other end into pin 4 of the arduino
 
-![step6](/images/arduino/2017-09-11-arduino-passive-motion-sensor/step6.jpg)
+![step6](/learnaustintech/images/arduino/2017-09-11-arduino-passive-motion-sensor/step6.jpg)
 
 Step 7) Take a female to male wire and plug one end into pin ground (gnd) of the sensor and the other end into pin 
 ground of the arduino
 
-![step7](/images/arduino/2017-09-11-arduino-passive-motion-sensor/step7.jpg)
+![step7](/learnaustintech/images/arduino/2017-09-11-arduino-passive-motion-sensor/step7.jpg)
 
 Step 8) Take a female to male wire and plug one end into pin + of the sensor and the other end into pin 
         3.3 volts of the arduino
 
-![step8](/images/arduino/2017-09-11-arduino-passive-motion-sensor/step8.jpg)
+![step8](/learnaustintech/images/arduino/2017-09-11-arduino-passive-motion-sensor/step8.jpg)
 
 It should like this when you are done.
 
-![lookslike](/images/arduino/2017-09-11-arduino-passive-motion-sensor/looklike.jpg)
+![lookslike](/learnaustintech/images/arduino/2017-09-11-arduino-passive-motion-sensor/looklike.jpg)
 
 Step 9) Plug in the arduino into the computer
 
-![lookslike](/images/arduino/2017-09-11-arduino-passive-motion-sensor/looklike.jpg)
+![lookslike](/learnaustintech/images/arduino/2017-09-11-arduino-passive-motion-sensor/looklike.jpg)
 
 Step 10) Open the arduino ide and paste the code in below.
 
@@ -107,15 +107,15 @@ void loop() {
 
 Step 11) Select the port in the arduino ide that your board is hooked up to
 
-![step11](/images/arduino/2017-09-11-arduino-passive-motion-sensor/step11.png)
+![step11](/learnaustintech/images/arduino/2017-09-11-arduino-passive-motion-sensor/step11.png)
 
 Step 12) Open the serial monitor
 
-![step13](/images/arduino/2017-09-11-arduino-passive-motion-sensor/step13.png)
+![step13](/learnaustintech/images/arduino/2017-09-11-arduino-passive-motion-sensor/step13.png)
 
 Step 13) Upload the arduino sketch
 
-![step12](/images/arduino/2017-09-11-arduino-passive-motion-sensor/step12.png)
+![step12](/learnaustintech/images/arduino/2017-09-11-arduino-passive-motion-sensor/step12.png)
 
 
 
